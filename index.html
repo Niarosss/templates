@@ -1,0 +1,2079 @@
+<!DOCTYPE HTML>
+<html lang="uk">
+	<head>
+		<title>Шаблони Miloan</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<link rel="stylesheet" href="assets/css/main.css"/>
+
+		<link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAsElEQVRoge3WQQrCMBSE4Xk5R117CG/gQbLrgXoSr+A97M6127xuWmjEKAWxT/g/KE1DAhMoZCQAAP6YrT9O18fZrAwudZ82enGV4vL5KU/v9+P2/tZ4NipZvvfHyzKRqtPEDi9JndyH9UR1gODhl5CH5gHCh3+h/oWkMXx40615AE8pS/WCcOFdub0AAH6NLkQX2nqp0YX2Dk8XAoBvogvRhbZeanShvcPThQAACGQCdDgRWQ5hfYsAAAAASUVORK5CYII="/>
+	</head>
+	<body>
+		<script>
+			var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.createTemplateTagFirstArg=function(a){return a.raw=a};$jscomp.createTemplateTagFirstArgWithRaw=function(a,b){a.raw=b;return a};"dark"==localStorage.getItem("theme")?document.body.classList.add("theme-dark"):"light"==localStorage.getItem("theme")?document.body.classList.add("theme-light"):document.body.classList.add("theme-auto")&localStorage.setItem("theme", "auto");
+		</script>
+  		<!-- Preload -->
+ 			<div class="preloader">
+    				<svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+      					<path fill="currentColor"
+       						 d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+      					</path>
+   					</svg>
+  			</div>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<!-- Header -->
+					<header id="header">
+							<div style="padding-left: 15px;" class="header_button item-1">
+								<input type="radio" id="pdt_uk" name="pdt" checked>
+								<label for="pdt_uk">Укр</label>
+							</div>
+							<div class="header_button item-2">
+								<input type="radio" id="pdt_ru" name="pdt">
+								<label for="pdt_ru">Рус</label>
+							</div>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Меню </span><i class="fa-solid fa-xl fa-bars-staggered"></i></a>
+									<div id="menu" class="wrapper style5" >
+										<ul class="links">
+											<li><a href="#vidn"><small lang="uk">Кредитування відновлено</small><small lang="ru">Кредитование восстановлено</small></a></li>
+											<li><a href="#ost"><small lang="uk">Кредитування зупинено (тільки Аміго)</small><small lang="ru">Кредитование остановлено (только Амиго)</small></a></li>
+											<li><a href="#sviaz"><small lang="uk">Зв'язок</small><small lang="ru">Связь</small></a></li>
+											<li><a href="#nedost"><small lang="uk">Недоступний</small><small lang="ru">Недоступен</small></a></li>
+											<li><a href="#nemavid"><small lang="uk">Немає відповіді</small><small lang="ru">Нет ответа</small></a></li>
+											<li><a href="#bloklist"><small class="center">Блок - лист</small></a></li>
+											<li><a href="#nezv"><small lang="uk">Не змогли зв'язатись</small><small lang="ru">Не смогли связаться</small></a></li>
+											<li><a href="#info"><small lang="uk">Інформація</small><small lang="ru">Информация</small></a></li>
+											<li><a href="#oformlen"><small lang="uk">Відсоткова ставка</small><small lang="ru">Процентная ставка</small></a></li>
+											<li><a href="#vik"><small lang="uk">Допустимий вік</small><small lang="ru">Допустимый возраст</small></a></li>
+											<li><a href="#kogda"><small lang="uk">Коли можна подати заявку</small><small lang="ru">Когда можно подать заявку</small></a></li>
+											<li><a href="#kogda2"><small lang="uk">Активний кредит | Коли подати нову заявку</small><small lang="ru">Активный кредит | Когда можно подать новую заявку</small></a></li>
+											<li><a href="#dobor"><small class="center">Добор</small></a></li>
+											<li><a href="#promo"><small class="center">Промокод</small></a></li>
+											<li><a href="#netpromo"><small lang="uk">Немає промо</small><small lang="ru">Нет промо</small></a></li>
+											<li><a href="#estpromo"><small lang="uk">Є промо</small><small lang="ru">Есть промо</small></a></li>
+											<li><a href="#karta"><small lang="uk">Додавання картки</small><small lang="ru">Добавление карты</small></a></li>
+											<li><a href="#karta2"><small lang="uk">Верифікація картки</small><small lang="ru">Верификация карты</small></a></li>
+											<li><a href="#geo"><small lang="uk"></small>Геолокація</small><small lang="ru">Геолокация</small></a></li>
+											<li><a href="#photo"><small lang="uk">Ідентифікація по фото</small><small lang="ru">Идентификация по фото</small></a></li>
+											<li><a href="#photo1"><small lang="uk">Приклад фото</small><small lang="ru">Пример фото</small></a></li>
+											<li><a href="#photo2"><small lang="uk">Для чого додавати фото</small><small lang="ru">Для чего добавлять фото</small></a></li>
+											<li><a href="#photo3"><small lang="uk">Погане фото</small><small lang="ru">Плохое фото</small></a></li>
+											<li><a href="#photo4"><small lang="uk">Немає фото</small><small lang="ru">Нет фото</small></a></li>
+											<li><a href="#status"><small lang="uk">Статуси заявок</small><small lang="ru">Статусы заявок</small></a></li>
+											<li><a href="#zapovnennya"><small lang="uk">Заповнення заяви</small><small lang="ru">Заполнение заявки</small></a></li>
+											<li><a href="#zapovnennya2"><small lang="uk">Заповнення заяви | Допрацювання</small><small lang="ru">Заполнение заявки | Доработка</small></a></li>
+											<li><a href="#nedozbki"><small lang="uk">Недозвон на основний | БКІ </small><small lang="ru">Недозвон на основной | БКИ</small></a></li>
+											<li><a href="#zavantagenist"><small lang="uk">Завантаженість</small><small lang="ru">Загруженность</small></a></li>
+											<li><a href="#dch"><small lang="uk">ДЧ | Дата чекінг</small><small lang="ru">ДЧ | Дата чекинг</small></a></li>
+											<li><a href="#ver"><small lang="uk">Верифікація за телефоном</small><small lang="ru">Верификация по телефону</small></a></li>
+											<li><a href="#zminaumov"><small lang="uk">Підтвердження зміни умов</small><small lang="ru">Подтверждение смены условий</small></a></li>
+											<li><a href="#draft"><small lang="uk">Draft | Підписання договору</small><small lang="ru">Draft | Подписание договора</small></a></li>
+											<li><a href="#signed"><small lang="uk">Signed | Проблема з зарахуванням</small><small lang="ru">Signed | Проблема с зачислением</small></a></li>
+											<li><a href="#cenceled"><small lang="uk">Cenceled | Договір анульовано</small><small lang="ru">Cenceled | Договор аннулирован</small></a></li>
+											<li><a href="#active"><small lang="uk">Active | Договір активний</small><small lang="ru">Active | Договор активен</small></a></li>
+											<li><a href="#closed"><small lang="uk">Closed | Договір закрито</small><small lang="ru">Closed | Договор закрыт</small></a></li>
+											<li><a href="#vidmova"><small lang="uk">Відмова у кредиті</small><small lang="ru">Отказ по кредиту</small></a></li>
+											<li><a href="#vidmovak"><small lang="uk">Відмова від заяви / договору</small><small lang="ru">Отказ от заявки / договора</small></a></li>
+											<li><a href="#vidzap"><small lang="uk">Заповнення заяви</small><small lang="ru">Заполнение заявки</small></a></li>
+											<li><a href="#vidver"><small lang="uk">Верифікація за телефоном</small><small lang="ru">Верификация по телефону</small></a></li>
+											<li><a href="#vidzmin"><small lang="uk">Підтвердження зміни умов</small><small lang="ru">Подтверждение смены условий</small></a></li>
+											<li><a href="#vidpis"><small lang="uk">Підписання договору</small><small lang="ru">Подписание договора</small></a></li>
+											<li><a href="#kodpidpis"><small lang="uk">Код підписання / входу</small><small lang="ru">Код подписания / входа</small></a></li>
+											<li><a href="#penya"><small class="center">Пеня</small></a></li>
+											<li><a href="#shtraf"><small lang="uk">Штрафні відсотки</small><small lang="ru">Штрафные проценты</small></a></li>
+											<li><a href="#vidzup"><small lang="uk">Відсотки зупинені</small><small lang="ru">Проценты остановлены</small></a></li>
+											<li><a href="#chas"><small lang="uk">Часткове погашення</small><small lang="ru">Частичное погашение</small></a></li>
+											<li><a href="#prolong"><small lang="uk">Пролонгація</small><small lang="ru">Пролонгация</small></a></li>
+											<li><a href="#rest"><small lang="uk">Реструктуризація</small><small lang="ru">Реструктуризация</small></a></li>
+											<li><a href="#nagrs"><small lang="uk">Нагадування про реструктуризацію</small><small lang="ru">Напоминание про реструктуризацию</small></a></li>
+											<li><a href="#discont"><small lang="uk">Дисконтування | Списання 50%</small><small lang="ru">Дисконтирование | Списание 50%</small></a></li>
+											<li><a href="#disrs"><small lang="uk">Дисконтування або реструктуризація</small><small lang="ru">Дисконтирование или реструктуризация</small></a></li>
+											<li><a href="#dissms"><small lang="uk">Дисконтування / SMS</small><small lang="ru">Дисконтирование / SMS</small></a></li>
+											<li><a href="#dogs"><small lang="uk">Домовленність із спеціалістом</small><small lang="ru">Договоренность из специалистом</small></a></li>
+											<li><a href="#prodaga"><small class="center">Продажа</small></a></li>
+											<li><a href="#kk"><small lang="uk">Кредит капітал</small><small lang="ru">Кредит капитал</small></a></li>
+											<li><a href="#dg"><small lang="uk">Довіра та гарантія</small><small lang="ru">Доверие и Гарантия</small></a></li>
+											<li><a href="#df"><small lang="uk">ДІДЖИ ФІНАНС</small><small lang="ru">ДИДЖИ ФИНАНС</small></a></li>
+											<li><a href="#pk"><small lang="uk">Профіт капітал</small><small lang="ru">Профит капитал</small></a></li>
+											<li><a href="#pa"><small lang="uk">Преміум актив</small><small lang="ru">Премиум актив</small></a></li>
+											<li><a href="#vk"><small lang="uk">Вердикт капітал</small><small lang="ru">Вердикт капитал</small></a></li>
+											<li><a href="#oplata"><small lang="uk">Способи оплати</small><small lang="ru">Способы оплаты</small></a></li>
+											<li><a href="#spravka"><small lang="uk">Довідка про закриття договору</small><small lang="ru">Справка о закрытии договора</small></a></li>
+											<li><a href="#bki"><small lang="uk">Активний УБКІ</small><small lang="ru">Активный УБКИ</small></a></li>
+											<li><a href="#zminad"><small lang="uk">Зміна даних</small><small lang="ru">Смена данных</small></a></li>
+											<li><a href="#zminad1"><small lang="uk">Неможливо змінити дані | Активний кредит</small><small lang="ru">Невозможно изменить данные | Активный кредит</small></a></li>
+											<li><a href="#zminan"><small lang="uk">Зміна основного номера</small><small lang="ru">Смена основного номера</small></a></li>
+											<li><a href="#zminae"><small lang="uk">Зміна E-mail</small><small lang="ru">Смена E-mail</small></a></li>
+											<li><a href="#zminane"><small lang="uk">Зміна номера та E-mail</small><small lang="ru">Смена номера и E-mail</small></a></li>
+											<li><a href="#zminapib"><small lang="uk">Зміна ПІБ</small><small lang="ru">Смена ФИО</small></a></li>
+											<li><a href="#zminavnes"><small lang="uk">Зміни внесено</small><small lang="ru">Изменения внесены</small></a></li>
+											<li><a href="#problemi"><small lang="uk">Проблеми із входом</small><small lang="ru">Проблемы с входом</small></a></li>
+											<li><a href="#bloklk"><small lang="uk">Блокування ОК</small><small lang="ru">Блокировка ЛК</small></a></li>
+											<li><a href="#bloklk1"><small lang="uk">Прохання заблокувати</small><small lang="ru">Просьба блокировки</small></a></li>
+											<li><a href="#bloklk2"><small lang="uk">Запит на блокування передано</small><small lang="ru">Запрос на блокировку передан</small></a></li>
+											<li><a href="#bloklk3"><small lang="uk">Заблоковано назавжди</small><small lang="ru">Заблокировано навсегда</small></a></li>
+											<li><a href="#reksms"><small lang="uk">SMS рекламного характеру</small><small lang="ru">SMS рекламного характера</small></a></li>
+											<li><a href="#personal"><small lang="uk">Персональні дані</small><small lang="ru">Персональные данные</small></a></li>
+											<li><a href="#peredano"><small lang="uk">Передано до юридичного відділу</small><small lang="ru">Передано в юридический отдел</small></a></li>
+											<li><a href="#peredano2"><small lang="uk">Передано до фінансового відділу</small><small lang="ru">Передано в финансовый отдел</small></a></li>
+											<li><a href="#peredano3"><small lang="uk">Передано до технічного відділу</small><small lang="ru">Передано в технический отдел</small></a></li>
+											<li><a href="#zvernen"><small lang="uk">Звернення розглядається</small><small lang="ru">Обращение рассматриваеться</small></a></li>
+											<li><a href="#spiv"><small lang="uk">Співпраця</small><small lang="ru">Сотрудничество</small></a></li>
+											<li><a href="#podyaka"><small lang="uk">Подяка</small><small lang="ru">Благодарность</small></a></li>
+											<li><a href="#rekviz"><small lang="uk">Реквізити Miloan</small><small lang="ru">Реквизити Miloan</small></a></li>
+											<li><a href="#zapros"><small lang="uk">Запросили договір / довідку / виписку</small><small lang="ru">Запросили договор / справку / выписку</small></a></li>
+											<li><a href="#zapotk"><small lang="uk">Не можемо надати договір / довідку / виписку</small><small lang="ru">Не можем предоставить / справку / выписку</small></a></li>
+											<li><a href="#zaprosn"><small lang="uk">Надаємо договір / довідку / виписку</small><small lang="ru">Предоставляем договор / справку / выписку</small></a></li>
+											<li><a href="#pidpis"><small lang="uk">Підпис</small><small lang="ru">Подпись</small></a></li>
+											<li><a href="#zaboron"><small lang="uk">Заборонені шаблони</small><small lang="ru">Запрещенные шаблоны</small></a></li>
+											<li><a href="#anuluvan"><small lang="uk">Анулювання договору</small><small lang="ru">Аннулирование договора</small></a></li>
+											<li><a href="#rekvo"><small lang="uk">Реквізити оплати</small><small lang="ru">Реквизиты оплаты</small></a></li>
+											<li><a href="#fraud"><small class="center">Fraud</small></a></li>
+										</ul>
+										<div class="dark_sv">
+											<span>Тема:</span>
+											<i style="padding-left: 5px;" id="icon-theme"></i>
+											<select id="theme" class="seld">
+												<option value="auto">Как на устройстве</option>
+												<option value="light">Светлая</option>
+												<option value="dark">Темная</option>
+											</select>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<div lang="uk" class="inner">
+								<h2>Шаблони Miloan</h2>
+								<p>прості рішення, прості шаблони</p>
+							</div>
+							<div lang="ru" class="inner">
+								<h2>Шаблоны Miloan</h2>
+								<p>простые решения, простые шаблоны</p>
+							</div>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner row gtr-50 gtr-uniform">
+								<div class="col-12">
+									<a id="vidn"></a>
+									<h3 lang="uk" class="center">Кредитування відновлено</h3><h3 lang="ru" class="center">Кредитование восстановлено</h3>
+									<p id="vidn1ua" onclick="selectText('vidn1ua')" lang="uk">
+										Ми раді повідомити, що кредитування відновлено.<br>
+										На даний час максимальна сумма становить 10000 гривень, максимальний термін - 15 днів.<br>
+										Вже зараз Ви можете подати заявку та її буде розглянуто.
+
+									</p>
+									<p id="vidn1ru" onclick="selectText('vidn1ru')" lang="ru">
+										Мы рады сообщить, что кредитование возобновлено.<br>
+										В настоящее время максимальная сумма 10000 гривен, максимальный срок – 15 дней.<br>
+										Уже сейчас Вы можете подать заявку и будет рассмотрено.
+									</p>
+									<hr>
+									<a id="ost"></a>
+									<h3 lang="uk" class="center">Кредитування зупинено (тільки Аміго)</h3><h3 lang="ru" class="center">Кредитование остановлено (только Амиго)</h3>
+									<p id="ost1ua" onclick="selectText('ost1ua')" lang="uk">
+										На жаль, в зв'язку з військовим станом, компанія призупинила кредитування на певний термін, отримати новий кредит зараз неможливо.<br>
+										Інформація про відновлення кредитування буде відображатись на сайті компанії.<br>
+										Просимо поставитись із розумінням.
+									</p>
+									<p id="ost1ru" onclick="selectText('ost1ru')" lang="ru">
+										К сожалению, в связи с военным положением компания приостановила кредитование на определенный срок, получить новый кредит сейчас невозможно.<br>
+										Информация о возобновлении кредитования будет отображаться на сайте компании.<br>
+										Просим отнестись с пониманием.
+									</p>
+									<hr>
+									<a id="sviaz"></a>
+									<h3 lang="uk" class="center">Зв'язок</h3><h3 lang="ru" class="center">Связь</h3>
+									<p id="s1ua" onclick="selectText('s1ua')" lang="uk">
+										Ми відправили запит, найближчим часом з Вами зв'яжеться представник компанії.
+									</p>
+									<p id="s1ru" onclick="selectText('s1ru')" lang="ru">
+										Мы отправили запрос, в ближайшее время с Вами свяжется представитель компании.
+									</p>
+									<hr>
+									<p id="s2ua" onclick="selectText('s2ua')" lang="uk">
+										Будь ласка, вкажіть Ваш номер телефону, з Вами зв'яжеться представник компанії для консультації.
+									</p>
+									<p id="s2ru" onclick="selectText('s2ru')" lang="ru">
+										Пожалуйста, укажите Ваш номер телефона, с Вами свяжется представитель компании для консультации.
+									</p>
+									<hr>
+									<p id="s3ua" onclick="selectText('s3ua')" lang="uk">
+										Вам буде зручно, якщо з Вами зв'яжеться представник компанії протягом 5 хвилин?
+									</p>
+									<p id="s3ru" onclick="selectText('s3ru')" lang="ru">
+										Вам будет удобно, если с Вами свяжется представитель компании в течении 5 минут?
+									</p>
+									<hr>
+									<p id="s4ua" onclick="selectText('s4ua')" lang="uk">
+										Ваш запит відправлено до відповідного відділу на обробку. Будь ласка, очікуйте на відповідь або дзвінок від фахівця компанії.
+									</p>
+									<p id="s4ru" onclick="selectText('s4ru')" lang="ru">
+										Ваш запрос отправлен в соответствующий отдел на обработку. Пожалуйста, ожидайте на ответ или звонок от специалиста компании.
+									</p>
+									<hr>
+									<a id="nedost"></a>
+									<h3 lang="uk" class="center">Недоступний</h3><h3 lang="ru" class="center">Недоступен</h3>
+									<p id="nemavid1ua" onclick="selectText('nemavid1ua')" lang="uk">
+										На жаль, вказаний Вами номер телефона - недоступний. Будь ласка, надішліть повторне звернення з актуальними даними.
+									</p>
+									<p id="nemavid1ru" onclick="selectText('nemavid1ru')" lang="ru">
+										К сожалению, указанный Вами номер телефона – недоступен. Пожалуйста, отправьте повторное обращение с актуальными данными.
+									</p>
+									<hr>
+									<a id="nemavid"></a><h3 lang="uk" class="center">Немає відповіді</h3><h3 lang="ru" class="center">Нет ответа</h3>
+									<p id="nedost1ua" onclick="selectText('nedost1ua')" lang="uk">
+										На жаль, не можемо з Вами зв’язатися за номером який Ви вказали. Будь ласка, надішліть повторне звернення з актуальними даними.
+									</p>
+									<p id="nedost1ru" onclick="selectText('nedost1ru')" lang="ru">
+										К сожалению, не можем с Вами связаться по номеру, который Вы указали. Пожалуйста, отправьте повторное обращение с актуальными данными.
+									</p>
+									<hr>
+									<a id="bloklist"></a>
+									<h3 class="center">Блок - лист</h3>
+									<p id="bloklist1ua" onclick="selectText('bloklist1ua')" lang="uk">
+										На жаль, не можемо з Вами зв’язатися за номером який Ви вказали. Скоріше за все у Вас блокуються вхідні дзвінки з невідомих номерів. Будь ласка, вимкніть блок-лист та надішліть повторне звернення з актуальними даними.
+									</p>
+									<p id="bloklist1ru" onclick="selectText('bloklist1ru')" lang="ru">
+										К сожалению, не можем с Вами связаться по номеру, который вы указали. Скорее всего у Вас блокируются входящие звонки с неизвестных номеров. Пожалуйста, отключите блок-лист и отправьте повторное обращение с актуальными данными.
+									</p>
+									<hr>
+									<a id="nezv"></a>
+									<h3 lang="uk" class="center">Не змогли зв'язатись</h3><h3 lang="ru" class="center">Не смогли связаться</h3>
+									<p id="nezv1ua" onclick="selectText('nezv1ua')" lang="uk">
+										На жаль, не можемо з Вами зв’язатися за телефоном, який Ви вказали основним при реєстрації, будь ласка, повідомте актуальний контактний номер телефону, з Вами зв'яжеться фахівець компанії для консультації.
+									</p>
+									<p id="nezv1ru" onclick="selectText('nezv1ru')" lang="ru">
+										К сожалению, не можем с Вами связаться по телефону, который Вы указали основным при регистрации, пожалуйста, сообщите актуальный контактный номер, с Вами свяжется специалист компании для консультации.
+									</p>
+									<hr>
+								</div>
+								<div class="col-4">
+								<h5 class="center">Miloan</h5>
+									<p id="nezv2ua" onclick="selectText('nezv2ua')" lang="uk">
+										На жаль, не змогли з Вами зв'язатися за вказаним номером.<br>
+										Будь ласка, вкажіть актуальний номер телефону або ж зв’яжіться з нами коли Вам буде зручно за номером: (044)337-36-67.
+									</p>
+									<p id="nezv2ru" onclick="selectText('nezv2ru')" lang="ru">
+										К сожалению, не смогли с Вами связаться по указанному номеру. <br>
+										Пожалуйста, укажите актуальный номер или свяжитесь с нами, когда Вам будет удобно по номеру: (044) 337-36-67.
+									</p>
+								</div>
+								<div class="col-4">
+								<h5 class="center">Tengo</h5>
+									<p id="nezv3ua" onclick="selectText('nezv3ua')" lang="uk">
+										На жаль, не змогли з Вами зв'язатися за вказаним номером.<br>
+										Будь ласка, вкажіть актуальний номер телефону або ж зв’яжіться з нами коли Вам буде зручно за номером: (044)337-00-37.
+									</p>
+									<p id="nezv3ru" onclick="selectText('nezv3ru')" lang="ru">
+										К сожалению, не смогли с Вами связаться по указанному номеру. <br>
+										Пожалуйста, укажите актуальный номер или свяжитесь с нами, когда Вам будет удобно по номеру: (044)337-00-37.
+									</p>
+								</div>
+								<div class="col-4">
+								<h5 class="center">Amigo</h5>
+									<p id="nezv4ua" onclick="selectText('nezv4ua')" lang="uk">
+										На жаль, не змогли з Вами зв'язатися за вказаним номером.<br>
+										Будь ласка, вкажіть актуальний номер телефону або ж зв’яжіться з нами коли Вам буде зручно за номером: (044)337-00-33.
+									</p>
+									<p id="nezv4ru" onclick="selectText('nezv4ru')" lang="ru">
+										К сожалению, не смогли с Вами связаться по указанному номеру. <br>
+										Пожалуйста, укажите актуальный номер или свяжитесь с нами, когда Вам будет удобно по номеру: (044)337-00-33.
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="info"></a>
+									<h3 lang="uk" class="center">Інформація</h3><h3 lang="ru" class="center">Информация</h3>	
+									<p id="i1ua" onclick="selectText('i1ua')" lang="uk">
+										Додаткову корисну інформацію Ви можете знайти в розділі Допомога - https://miloan.ua/faq, на нашому сайті, або звернутися до чату Miloan:<br>
+										Facebook - https://m.me/miloan.ua<br>
+										Viber - viber://pa?chatURI=miloanviberbot<br>
+										Telegram - https://t.me/miloan_bot<br>
+									</p>
+									<p id="i1ru" onclick="selectText('i1ru')" lang="ru">
+										Дополнительную полезную информацию Вы можете найти в разделе Помощь - https://miloan.ua/faq, на нашем сайте, или обратится в чат Miloan:<br>
+										Facebook - https://m.me/miloan.ua<br>
+										Viber - viber://pa?chatURI=miloanviberbot<br>
+										Telegram - https://t.me/miloan_bot<br>
+									</p>
+									<hr>
+									<a id="umovi"></a>
+									<h3 lang="uk" class="center">Умови кредитування</h3><h3 lang="ru" class="center">Условия кредитования</h3>
+									<hr>
+									<a id="oformlen"></a>
+									<h4 lang="uk" class="center">Відсоткова ставка</h4><h4 lang="ru" class="center">Процентная ставка</h4>
+									<p id="u1ua" onclick="selectText('u1ua')" lang="uk">
+										В компанії можна оформити кредит зі ставкою - від 1% до 1,5% в день. Доступна сума від 500 грн. до 20000 грн., терміном до 30 днів.
+									</p>
+									<p id="u1ru" onclick="selectText('u1ru')" lang="ru">
+										В компании можно оформить кредит со ставкой - от 1% до 1,5% в день. Доступная сумма от 500 грн. до 20000 грн., сроком до 30 дней.
+									</p>
+									<hr>
+									<p id="u2ua" onclick="selectText('u2ua')" lang="uk">
+										Користуючись послугами нашої компанії перший кредит Ви можете отримати  під 0,01% в день без комісії. Доступна сума до 20000 гривень на 30 днів.
+									</p>
+									<p id="u2ru" onclick="selectText('u2ru')" lang="ru">
+										Пользуясь услугами нашей компании первый кредит Вы можете получить под 0,01% в день без комиссии. Доступная сумма до 20000 гривен на 30 дней.
+									</p>
+									<hr>
+									<p id="u3ua" onclick="selectText('u3ua')" lang="uk">
+										Користуючись послугами нашої компанії перший кредит Ви можете отримати  під 0,01% в день без комісії. Доступна сума до 20000 гривень на 30 днів.  За повторними позиками найбільш поширена ставка - від 1 до 1,5% в день. За повторними кредитами також є комісія за видачу - 10%. Залежно від вашого профілю система може встановити суму / термін менше запитаних або збільшити ставку. Відсотки рахуються тільки за дні користування кредитом.
+									</p>
+									<p id="u3ru" onclick="selectText('u3ru')" lang="ru">
+										Пользуясь услугами нашей компании первый кредит Вы можете получить под 0,01% в день без комиссии. Доступная сумма до 20000 гривен на 30 дней. По повторным займам наиболее распространенные ставки - от 1 до 1,5% в день. По повторным кредитам есть комиссия за выдачу - 10%. В зависимости от вашего профиля система может установить сумму / срок меньше запрошенных или увеличить ставку. Проценты считаются только за дни пользования кредитом.
+									</p>
+									<hr>
+									<p id="stav1ua" onclick="selectText('stav1ua')" lang="uk">
+										Ставка по кредиту визначається індивідуально в залежності від наданої Вами інформації та Вашої кредитної історії. Найбільш поширені відсоткові ставки для повторного кредиту - від 1% до 1,5% в день. Відсотки рахуються тільки за дні користування кредитом.
+									</p>
+									<p id="stav1ru" onclick="selectText('stav1ru')" lang="ru">
+										Ставка по кредиту определяется индивидуально в зависимости от предоставленной Вами информации и Вашей кредитной истории. Наиболее распространенные процентные ставки для повторного кредита – от 1% до 1,5% в день. Проценты считаются только за дни использования кредита.
+									</p>
+									<hr>
+									<a id="vik"></a>
+									<h4 lang="uk" class="center">Допустимий вік</h4><h4 lang="ru" class="center">Допустимый возраст</h4>
+									<p id="vik1ua" onclick="selectText('vik1ua')" lang="uk">
+										Подати заявку на отримання кредиту можуть клієнти які досягли 18 років та вік яких становить не більше 65 років.
+									</p>
+									<p id="vik1ru" onclick="selectText('vik1ru')" lang="ru">
+										Подать заявку на получения кредита могут клиенты которые достигли 18 лет и возраст которых составляет не более 65 лет.
+									</p>
+									<hr>
+									<a id="kogda"></a>
+									<h4 lang="uk" class="center">Коли можна подати заявку</h4><h4 lang="ru" class="center">Когда можно подать заявку</h4>
+									<p id="kog1ua" onclick="selectText('kog1ua')" lang="uk">
+										Подати заявку на кредит можна в будь-який час. Компанія працює цілодобово та без вихідних. Рішення по більшості заявок приймається автоматично протягом декількох хвилин. Деякі заявки потрапляють на додаткову перевірку кредитних експертів. Вони працюють з 8:00 до 20:00 щодня без вихідних. Клієнтська підтримка працює за таким же графіком.
+									</p>
+									<p id="kog1ru" onclick="selectText('kog1ru')" lang="ru">
+										Подать заявку на кредит можно в любое время. Компания работает круглосуточно и без выходных. Решение по большинству заявок принимается автоматически в течение нескольких минут. Некоторые заявки попадают на дополнительную проверку кредитным экспертам. Они работают с 8:00 до 20:00 ежедневно без выходных. Клиентская поддержка работает по такому же графику.
+									</p>
+									<hr>
+									<a id="kogda2"></a>
+									<h4 lang="uk" class="center">Активний кредит | Коли подати нову заявку</h4><h4 lang="ru" class="center">Активный кредит | Когда можно подать новую заявку</h4>
+									<p id="kog2ua" onclick="selectText('kog2ua')" lang="uk">
+										Після погашення поточного кредиту, Ви можете відразу ж подати нову заявку. При повторному кредитуванні максимальна можлива сума становить 20000 грн. Заздалегідь повідомити деталі договору можливості немає, так як при прийнятті рішення враховується вся інформація, надана клієнтом та дані кредитних бюро на дату оформлення нової заявки.
+									</p>
+									<p id="kog2ru" onclick="selectText('kog2ru')" lang="ru">
+										После погашения текущего кредита, Вы можете сразу же подать новую заявку. При повторном кредитовании максимальная возможная сумма составляет 20000 грн. Заранее сообщить детали договора возможности нет, так как при принятии решения учитывается вся информация, предоставленная клиентом и данные кредитных бюро на дату оформления новой заявки.
+									</p>
+									<hr>
+									<a id="dobor"></a>
+									<h4 class="center">Добор</h4>
+									<p id="dobor1ua" onclick="selectText('dobor1ua')" lang="uk">
+										В нашій компанії у клієнта може бути тільки один активний договір, функції добору, на жаль, немає.
+									</p>
+									<p id="dobor1ru" onclick="selectText('dobor1ru')" lang="ru">
+										В нашей компании у клиента может быть только один активный договор, функции добора, к сожалению, нет.
+									</p>
+									<hr>
+									<p id="dobor2ua" onclick="selectText('dobor2ua')" lang="uk">
+										Лише після сплати поточного кредиту Ви можете подати заявку на отримання повторного кредиту. Можливості отримання додаткових коштів під час діючого кредиту у нас немає.
+									</p>
+									<p id="dobor2ru" onclick="selectText('dobor2ru')" lang="ru">
+										Только после оплаты текущего кредита Вы можете подать заявку на получение повторного кредита. Возможности получения дополнительных средств при действующем кредите у нас нет.
+									</p>
+									<hr>
+									<a id="promo"></a>
+									<h3 class="center">Промокод</h3>
+									<hr>
+									<p id="pro1ua" onclick="selectText('pro1ua')" lang="uk">
+										Промокод - це 5 цифр за допомогою яких активуються акційні умови кредитування. 
+									</p>
+									<p id="pro1ru" onclick="selectText('pro1ru')" lang="ru">
+										Промокод - это 5 цифр с помощью которых активируются акционные условия кредитования.
+									</p>
+									<p id="pro2ua" onclick="selectText('pro2ua')" lang="uk">
+										Промокод слід вводити ДО подачі заявки на кредит - за посиланням біля кнопки Взяти кредит, в іншому випадку він діяти не буде.
+									</p>
+									<p id="pro2ru" onclick="selectText('pro2ru')" lang="ru">
+										Промокод следует вводить до подачи заявки на кредит - по ссылке рядом с кнопкой Взять кредит, в другом случае он действовать не будет.
+									</p>
+									<p id="pro3ua" onclick="selectText('pro3ua')" lang="uk">
+										Промокоди розсилаються персонально у SMS та E-mail повідомленнях.
+									</p>
+									<p id="pro3ru" onclick="selectText('pro3ru')" lang="ru">
+										Промокоды рассылаются персонально в SMS и E-mail сообщениях.
+									</p>
+									<hr>
+									<a id="netpromo"></a>
+									<h4 lang="uk" class="center">Немає промо</h4><h4 lang="ru" class="center">Нет промо</h4>
+									<p id="pro4ua" onclick="selectText('pro4ua')" lang="uk">
+										На жаль, зараз немає діючого промокоду на знижку.
+									</p>
+									<p id="pro4ru" onclick="selectText('pro4ru')" lang="ru">
+										К сожалению, сейчас нет действующего промокода на скидку.
+									</p>
+									<p id="pro5ua" onclick="selectText('pro5ua')" lang="uk">
+										Рішення про надання знижки приймається автоматично системою, зазвичай, промокод можна отримати на свята, в соціальних мережах або ставши нашим постійним клієнтом.<br>
+										Слідкуйте за оновленнями, можливо саме Вам надійде наступний промокод на отримання кредиту зі знижкою.
+									</p>
+									<p id="pro5ru" onclick="selectText('pro5ru')" lang="ru">
+										Решение о предоставлении скидки принимается автоматически системой, обычно, промокод можно получить на праздники, в социальных сетях или став нашим постоянным клиентом.<br>
+									С	ледите за обновлениями, возможно именно Вам поступит следующий промокод на получение кредита со скидкой.
+									</p>
+									<hr>
+									<a id="estpromo"></a>
+									<h4 lang="uk" class="center">Є промо</h4><h4 lang="ru" class="center">Есть промо</h4>
+									<p id="pro6ua" onclick="selectText('pro6ua')" lang="uk">
+										У Вашій заявці був успішно введений промокод. Після розгляду заявки актуальна сума буде відображатися в особистому кабінеті, перед підписанням договору.
+									</p>
+									<p id="pro6ru" onclick="selectText('pro6ru')" lang="ru">
+										В Вашей заявке успешно был введён промокод. После рассмотрения заявки, актуальная сумма будет отображаться в личном кабинете перед подписанием договора.
+									</p>
+									<hr>
+									<a id="karta"></a>
+									<h3 lang="uk" class="center">Додавання картки</h3><h3 lang="ru" class="center">Добавление карты</h3>
+									<p id="kar1ua" onclick="selectText('kar1ua')" lang="uk">
+										Для отримання кредиту  рекомендуємо  використовувати виключно Вашу діючу картку Visa або MasterCard, емітовану українським банком. Якщо Ви будете використовувати платіжну карту, яка не належить Вам  - це буде порушенням з Вашого боку як умов використання платіжної картки, так і умов отримання кредиту.<br>
+										Тому наполегливо рекомендуємо використовувати для отримання кредиту тільки видані безпосередньо Вам платіжні карти.
+									</p>
+									<p id="kar1ru" onclick="selectText('kar1ru')" lang="ru">
+										Для получения кредита рекомендуем использовать исключительно Вашу действующую карту Visa или MasterCard эмитировану украинским банком. Если Вы будете использовать платежную карту, которая не принадлежит Вам - это будет нарушением с Вашей стороны как условий использования платежной карты, так и условий получения кредита.<br>
+										Поэтому настоятельно рекомендуем использовать для получения кредита только выданные непосредственно Вам платежные карты.
+									</p>
+									<hr>
+									<p id="kar2ua" onclick="selectText('kar2ua')" lang="uk">
+										Компанія надає кредитні кошти на банківську картку. Для додавання картки до особистого кабінету необхідна сумма в 1 грн. на Вашому рахунку. Сума блокується платіжною системою для проходження верифікації, протягом деякого часу вона повертається на Ваш рахунок.
+									</p>
+									<p id="kar2ru" onclick="selectText('kar2ru')" lang="ru">
+										Компания предоставляет кредитные средства на банковскую карту. Для добавления карты необходима сумма в 1 грн. на Вашем счете. Сумма блокируется платежной системой для прохождения верификации, в течение некоторого времени возвращается на Ваш счет.
+									</p>
+									<hr>
+									<a id="karta2"></a>
+									<h3 lang="uk" class="center">Верифікація картки</h3><h3 lang="ru" class="center">Верификация карты</h3>
+									<p id="kar3ua" onclick="selectText('kar3ua')" lang="uk">
+										Для того, щоб пройти верифікацію Вошої банківськї картки, в Особистому кабінеті натисніть на кнопку “Додати карту”, далі Ви перейдете на сторінку сертифікованої платіжної системи Liqpay, після виконання платежу Ви повернетесь на наш сайт для вводу коду. Дізнатись код ви зможете наступним чином:<br>
+										- в SMS-повідомленні (якщо у Вас підключена послуга SMS-банкінгу);<br>
+										- через інтернет-банк, переглянувши заблоковані на рахунку суми;<br>
+										- зателефонувавши в службу підтримки Вашого банку.<br>
+										Звертаємо Вашу увагу, що термін дії коду верифікації обмежений у часі.
+									</p>
+									<p id="kar3ru" onclick="selectText('kar3ru')" lang="ru">
+										Для того, чтобы пройти верификцию Вашей банковской карты, в своем Личном кабинете нажмите кнопку "Добавить карту", после чего Вы перейдете на страницу сертифицированного платежного сервиса Liqpay, а после выполнения платежа вернетесь на наш сайт для ввода кода. Узнать код верификации вы можете следующими способами:<br>
+										- в SMS, если ваш банк уведомляет об операциях по карте;<br>	
+										- через интернет-банк, просмотрев заблокированные на счете суммы;<br>
+										- позвонив в службу поддержки своего банка.<br>
+										Обращаем Ваше внимание, что срок действия кода верификации ограничен во времени.
+									</p>
+									<hr>
+									<p id="kar4ua" onclick="selectText('kar4ua')" lang="uk">
+										Картку не може бути верифіковано з декількох причин:<br>
+										- картка заблокована;<br>
+										- закінчився термін дії картки;<br>
+										- встановлено ліміт на здійснення операцій через інтернет і т.д.<br>
+										Щоб дізнатися з якої саме причини Ваша картка не авторизується, будь ласка, зателефонуйте в службу клієнтської підтримки Вашого банку.<br>
+										Номера телефонів клієнтської підтримки вказано на зворотному боці картки.
+									</p>
+									<p id="kar4ru" onclick="selectText('kar4ru')" lang="ru">
+										Карта не может быть верифицирована с некоторых причин:<br>
+										- карта заблокирована;<br>
+										- закончился срок действия карты;<br>
+										- установлен лимит на осуществления операций в интернете или др.<br>
+										Чтобы узнать какой именно причине Ваша карта не авторизуется, пожалуйста, позвоните в службу клиентской поддержки Вашего банка.<br>
+										Номера телефонов клиентской поддержки указано на обратной стороне карточки.
+									</p>
+									<hr>
+									<a id="geo"></a>
+									<h3 lang="uk" class="center">Геолокація</h3><h3 lang="ru" class="center">Геолокация</h3>
+								</div>
+								<div class="col-6">	
+									<h5 class="center">Miloan</h5>
+									<p id="geo1ua" onclick="selectText('geo1ua')" lang="uk">
+										Детальну інформацію про надання доступу до геолокації Ви можете отримати на сайті компанії в розділі "Особливості кредитування" > "Геолокація Мілоан", або ж Ви можете перейти за прямим посиланням:<br>
+										https://miloan.ua/s/geolokacia-na-miloan
+									</p>
+									<p id="geo1ru" onclick="selectText('geo1ru')" lang="ru">
+										Подробную информацию о предоставлении доступа к геолокации Вы можете получить на сайте компании в разделе "Особенности кредитования" > "Геолокация Милоан", или же Вы можете перейти по прямой ссылке:<br>
+										https://miloan.ua/s/geolokacia-na-miloan
+									</p>
+								</div>		
+								<div class="col-6">	
+									<h5 class="center">Tengo</h5>
+									<p id="geo2ua" onclick="selectText('geo2ua')" lang="uk">
+										Детальну інформацію про надання доступу до геолокації Ви можете отримати на сайті компанії в розділі "Особливості кредитування" > "Геолокація Тенго", або ж Ви можете перейти за прямим посиланням:<br>
+										https://tengo.ua/s/gelokacia-na-tengo
+									</p>
+									<p id="geo2ru" onclick="selectText('geo2ru')" lang="ru">
+										Подробную информацию о предоставлении доступа к геолокации Вы можете получить на сайте компании в разделе "Особенности кредитования" > "Геолокация Тенго", или же Вы можете перейти по прямой ссылке:<br>
+										https://tengo.ua/s/gelokacia-na-tengo
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="photo"></a>
+									<h3 lang="uk" class="center">Ідентифікація по фото</h3><h3 lang="ru" class="center">Идентификация по фото</h3>
+									<p id="photo1ua" onclick="selectText('photo1ua')" lang="uk">
+										Для того щоб пройти ідентифікацію за допомогою фото необхідно переконатись, що Ваш браузер підтримує дану функцію та за необхідності оновити його до актуальної версії. Також рекомендуємо очистити кеш та історію браузеру. Для того, щоб зробити фото в онлайн режимі необхідно надати доступ до камери.
+									</p>
+									<p id="photo1ru" onclick="selectText('photo1ru')" lang="ru">
+										Для того чтобы пройти идентификацию с помощью фото, необходимо убедиться, что Ваш браузер поддерживает данную функцию и при необходимости обновить его до актуальной версии. Также советуем очистить кэш и историю браузера. Для того, чтобы сделать фото в онлайн режиме необходимо предоставить доступ к камере.
+									</p>
+									<hr>
+									<a id="photo1"></a>
+									<h3 lang="uk" class="center">Приклад фото</h3><h3 lang="ru" class="center">Пример фото</h3>
+									<p id="photo2ua" onclick="selectText('photo2ua')" lang="uk">
+										Згідно з умовами заповнення заявки необхідно прикріпити такі фото:<br>
+										1 - фото з паспортом на рівні обличчя<br>
+										2 - фото сторінки з реєстрацією / довідка про реєстрацію<br>
+									</p>
+									<p id="photo2ru" onclick="selectText('photo2ru')" lang="ru">
+										Согласно условиям заполнения заявки необходимо прикрепить такие фото:<br>
+										1 - фото с паспортом на уровне лица<br>
+										2 - фото страницы с регистрацией / справка о регистрации<br>
+									</p>
+									<hr>
+									<a id="photo2"></a>
+									<h3 lang="uk" class="center">Для чого додавати фото</h3><h3 lang="ru" class="center">Для чего добавлять фото</h3>
+									<p id="photo3ua" onclick="selectText('photo3ua')" lang="uk">
+										Рішення чи запитувати фотографії у клієнта приймається автоматично системою.
+									</p>
+									<p id="photo3ru" onclick="selectText('photo3ru')" lang="ru">
+										Решение запрашивать ли фотографии у клиента принимается автоматически системой.
+									</p>
+									<hr>
+									<p id="photo4ua" onclick="selectText('photo4ua')" lang="uk">
+										Фото клієнта з паспортом у руках необхідне для ідентифікації його власника, перевірки достовірності вказаної інформації та задля уникнення шахрайських махінацій з Вашими документами. Будь ласка, додайте фото відповідно до рекомендацій наших кредитних спеціалістів, коли у Вас з’явиться така можливість і відправте нам заявку знову, ми будемо раді її розглянути.
+
+									</p>
+									<p id="photo4ru" onclick="selectText('photo4ru')" lang="ru">
+										Фото клиента с паспортом в руках необходимо для идентификации его владельца, проверки достоверности указанной информации и во избежание мошеннических операций с Вашими документами. Пожалуйста, добавьте фото в соответствии с рекомендациями наших кредитных специалистов, когда у Вас появится такая возможность и отправьте заявку вновь, мы будем рады ее рассмотреть.
+									</p>
+									<hr>
+									<p id="photo5ua" onclick="selectText('photo5ua')" lang="uk">
+										Система не може розглянути Вашу заявку без даних фотографій. Будь ласка, додайте фото відповідно до зразків, коли у Вас з'явиться така можливість і відправте нам заявку знову, ми будемо раді її розглянути.
+									</p>
+									<p id="photo5ru" onclick="selectText('photo5ru')" lang="ru">
+										Система не может рассмотреть Вашу заявку без данных фотографий. Пожалуйста, добавьте фото соответствии с образцами, когда у Вас появится такая возможность и отправьте нам заявку снова, мы будем рады ее рассмотреть.
+									</p>
+									<hr>
+									<a id="photo3"></a><h3 lang="uk" class="center">Погане фото</h3><h3 lang="ru" class="center">Плохое фото</h3>
+									<p id="photo6ua" onclick="selectText('photo6ua')" lang="uk">
+										На жаль, додане фото неналежної якості та написи в документі не читаються.<br>
+										Будь ласка, відправте заявку повторно з актуальною фотографією кращої якості. Виберіть місце з кращим освітленням та спробуйте наблизити камеру.
+									</p>
+									<p id="photo6ru" onclick="selectText('photo6ru')" lang="ru">
+										К сожалению, добавленное фото ненадлежащего качества и надписи в документе не читаются.<br>
+										Пожалуйста, отправьте заявку с актуальной фотографией лучшего качества. Выберите место с лучшим освещением и попробуйте приблизить камеру.
+									</p>
+									<hr>
+									<a id="photo4"></a>
+									<h3 lang="uk" class="center">Немає фото</h3><h3 lang="ru" class="center">Нет фото</h3>
+									<p id="photo7ua" onclick="selectText('photo7ua')" lang="uk">
+										Фото з паспортом на рівні обличчя не додано.<br>
+										Для зміни електронної пошти і номера телефону, відправте повторне звернення та додайте фото з розгорнутим паспортом в руках на рівні вашого обличчя. Це необхідно для ідентифікації Вас як клієнта і власника даного номеру та e-mail.
+									</p>
+									<p id="photo7ru" onclick="selectText('photo7ru')" lang="ru">
+										Фото с паспортом на уровне лица не добавлено.<br>
+										Для изменения электронной почты и номера телефона отправьте повторное обращение и добавьте фото с развернутым паспортом в руках на уровне вашего лица. Это необходимо для идентификации Вас как клиента и владельца данного номера и e-mail.
+									</p>
+									<hr>
+									<a id="status"></a>
+									<h3 lang="uk" class="center">Статуси заявок</h3><h3 lang="ru" class="center">Статусы заявок</h3>
+									<hr>
+									<a id="zapovnennya"></a>
+									<h4 lang="uk" class="center">Заповнення заяви</h4><h4 lang="ru" class="center">Заполнение заявки</h4>
+									<p id="zap1ua" onclick="selectText('zap1ua')" lang="uk">
+										На даний час Ваша заявка перебуває в статусі заповнення. Будь ласка, увійдіть до особистого кабінету, заповніть заявку та відправте її на розгляд.
+									</p>
+									<p id="zap1ru" onclick="selectText('zap1ru')" lang="ru">
+										В настоящее время Ваша заявка находится в статусе заполнения. Пожалуйста, войдите в личный кабинет, заполните заявку и отправьте ее на рассмотрение.
+									</p>
+									<hr>
+									<a id="zapovnennya2"></a>
+									<h4 lang="uk" class="center">Заповнення заяви | Допрацювання</h4><h4 lang="ru" class="center">Заполнение заявки | Доработка</h4>
+									<p id="zap2ua" onclick="selectText('zap2ua')" lang="uk">
+										Ваша заявка повернулась на доопрацювання до особистого кабінету.<br>
+										Будь ласка, допрацюйте заявку згідно рекомендацій кредитного експерта.
+									</p>
+									<p id="zap2ru" onclick="selectText('zap2ru')" lang="ru">
+										Ваша заявка вернулась на доработку в личный кабинет.<br>
+										Пожалуйста, доработайте заявку согласно рекомендациям кредитного эксперта.
+									</p>
+									<hr>
+									<p id="zap3ua" onclick="selectText('zap3ua')" lang="uk">
+										Ваша заявка повернулась на доопрацювання по причині неякісного фото.<br>
+										Будь ласка, зробіть фото з паспортом на рівні обличчя кращої якості.
+									</p>
+									<p id="zap3ru" onclick="selectText('zap3ru')" lang="ru">
+										Ваша заявка вернулась на доработку по причине некачественного фото.<br>
+										Пожалуйста, сделайте фото с паспортом на уровне лица лучшего качества.
+									</p>
+									<hr>
+									<a id="nedozbki"></a>
+									<h4 lang="uk" class="center">Недозвон на основний | БКІ </h4><h4 lang="ru" class="center">Недозвон на основной | БКИ</h4>
+									<p id="ned1ua" onclick="selectText('ned1ua')" lang="uk">
+										На жаль, не змогли зв’язатись з Вами для верифікації заявки.<br>
+										Перевірте налаштування Вашого пристрою, можливо у Вас обмеження на вхідні дзвінки з деяких номерів.
+									</p>
+									<p id="ned1ru" onclick="selectText('ned1ru')" lang="ru">
+										К сожалению, не смогли связаться с Вами для верификации заявки.<br>
+										Проверьте настройки устройства, возможно у Вас ограничения на входящие звонки с некоторых номеров.  
+									</p>
+									<hr>
+									<p id="ned2ua" onclick="selectText('ned2ua')" lang="uk">
+										За Вашою заявою верифікація також проводиться на номер телефону +38, за ним до Вас не можуть додзвонитися.
+									</p>
+									<p id="ned2ru" onclick="selectText('ned2ru')" lang="ru">
+										По Вашей заявке верификация также проводится на номер телефона +38, по нему к Вам не могут дозвонится.
+									</p>
+									<hr>
+									<p id="ned3ua" onclick="selectText('ned3ua')" lang="uk">
+										Цей номер телефону було вказано системою автоматично.<br>
+										На жаль, у нас немає технічної можливості видалити його.<br>
+										Рекомендуємо подати заявку через деякий час, можливо тоді інформацію буде оновлено.<br>
+										Приносимо свої вибачення за незручності.
+									</p>
+									<p id="ned3ru" onclick="selectText('ned3ru')" lang="ru">
+										Этот номер телефона указан автоматически.<br>
+										К сожалению, у нас нет технической возможности удалить его.<br>
+										Рекомендуем подать заявку через некоторое время, возможно тогда информация будет обновлена.<br>
+										Приносим свои извинения за неудобства.
+									</p>
+									<hr>
+									<a id="zavantagenist"></a>
+									<h4 lang="uk" class="center">Завантаженість</h4><h4 lang="ru" class="center">Загруженность</h4>
+									<p id="zag1ua" onclick="selectText('zag1ua')" lang="uk">
+										На жаль, на даний момент, дуже велика завантаженість, заявки можуть оброблятися довше зазначеного часу. Приносимо свої вибачення за незручності.
+									</p>
+									<p id="zag1ru" onclick="selectText('zag1ru')" lang="ru">
+										К сожалению, на данный момент, очень большая загруженность, заявки могут обрабатываться дольше указанного времени. Приносим свои извинения за неудобства.
+									</p>
+									<hr>
+									<a id="dch"></a>
+									<h4 lang="uk" class="center">ДЧ | Дата чекінг</h4><h4 lang="ru" class="center">ДЧ | Дата чекинг</h4>
+									<p id="dch1ua" onclick="selectText('dch1ua')" lang="uk">
+										Ваша заявка знаходиться на розгляді у кредитного експерта, очікуйте, інформація з рішенням за заявкою буде відображатися у Вашому Особистому кабінеті, а також Вам надійде повідомлення на електронну адресу, яку Ви вказали при реєстрації. При позитивній відповіді ми додатково надішлемо СМС повідомлення на Ваш мобільний номер телефону.
+									</p>
+									<p id="dch1ru" onclick="selectText('dch1ru')" lang="ru">
+										Ваша заявка находится на рассмотрении у кредитного эксперта, ожидайте, информация с решением по заявке будет отображаться в Вашем Личном кабинете, а также Вам поступит сообщение на электронный адрес, который Вы указали при регистрации. При положительном ответе мы дополнительно отправим СМС сообщения на Ваш мобильный номер телефона.
+									</p>
+									<hr>
+									<p id="dch2ua" onclick="selectText('dch2ua')" lang="uk">
+										Ваша заявка перебуває на розгляді у кредитного експерта, як правило, заявки обробляються протягом 15-ти хвилин в робочий час. На жаль, на даний момент дуже велика завантаженість, заявки можуть оброблятися довше зазначеного часу. Ми передамо звернення, щоб заявка була розглянута якомога швидше. Приносимо свої вибачення.
+									</p>
+									<p id="dch2ru" onclick="selectText('dch2ru')" lang="ru">
+										Ваша заявка находится на рассмотрении у кредитного эксперта, как правило, заявки обрабатываются в течение 15-ти минут в рабочее время. К сожалению, на данный момент очень большая загруженность, заявки могут обрабатываться дольше указанного времени. Мы передадим обращение, чтобы заявка была рассмотрена как можно быстрее. Приносим свои извинения.
+									</p>
+									<hr>
+									<a id="ver"></a>
+									<h4 lang="uk" class="center">Верифікація за телефоном</h4><h4 lang="ru" class="center">Верификация по телефону</h4>
+									<p id="ver1ua" onclick="selectText('ver1ua')" lang="uk">
+										Ваша заявка знаходиться на останньому етапі перевірки - на стадії верифікації за телефоном.<br>
+										Будь ласка, чекайте дзвінка від представника компанії.
+									</p>
+									<p id="ver1ru" onclick="selectText('ver1ru')" lang="ru">
+										Ваша заявка находится на последнем этапе проверки - на стадии верификации по телефону.<br>
+										Пожалуйста, ожидайте звонка от представителя компании.
+									</p>
+									<hr>
+									<p id="ver2ua" onclick="selectText('ver2ua')" lang="uk">
+										Після розмови з кредитним експертом буде прийнято рішення по заявці, воно буде відображатись у Вашому Особистому кабінеті та поступить повідомлення на електронну адресу, яку Ви вказали при реєстрації. Додатково, при позитивній відповіді, ми надішлемо СМС повідомлення на Ваш мобільний номер телефону.
+									</p>
+									<p id="ver2ru" onclick="selectText('ver2ru')" lang="ru">
+										После разговора с кредитным экспертом будет принято решение по заявке, оно будет отображаться в Вашем Личном кабинете и поступит сообщение на электронный адрес, который Вы указали при регистрации. Дополнительно, при положительном ответе, мы отправим SMS сообщение на Ваш мобильный номер телефона.
+									</p>
+									<hr>
+									<p id="ver3ua" onclick="selectText('ver3ua')" lang="uk">
+										Телефонна розмова є обов'язковим етапом при отриманні кредиту. Будь ласка, подайте заявку коли зможете відповісти на дзвінок від кредитного експерта.
+									</p>
+									<p id="ver3ru" onclick="selectText('ver3ru')" lang="ru">
+										Телефонный разговор является обязательным этапом при получении кредита. Пожалуйста, подайте заявку когда сможете ответить на звонок от кредитного эксперта.
+									</p>
+									<hr>
+									<a id="zminaumov"></a>
+									<h4 lang="uk" class="center">Підтвердження зміни умов</h4><h4 lang="ru" class="center">Подтверждение смены условий</h4>
+									<p id="zmina1ua" onclick="selectText('zmina1ua')" lang="uk">
+										Вам запропоновані альтернативні варіанти отримання кредиту, у Вас є можливість обрати один з них.<br>
+										Така пропозиція буде діяти протягом 3 днів, після чого заявка буде автоматично відхилена.
+									</p>
+									<p id="zmina1ru" onclick="selectText('zmina1ru')" lang="ru">
+										Вам предложены альтернативные варианты получения кредита, у Вас есть возможность выбрать один из них.<br>
+										Такое предложение будет действовать в течение 3 дней, после чего заявка будет автоматически отклонена.
+									</p>
+									<hr>
+									<p id="zmina2ua" onclick="selectText('zmina2ua')" lang="uk">
+										Компанія не відмовила Вам в кредиті, а запропонувала альтернативні умови кредитування. Ви можете з ними ознайомитись та прийняти найбільш зручний для Вас варіант.
+									</p>
+									<p id="zmina2ru" onclick="selectText('zmina2ru')" lang="ru">
+										Компания не отказала Вам в кредите, а предложила альтернативные условия кредитования. Вы можете с ними ознакомиться и принять наиболее удобный для Вас вариант.
+									</p>
+									<hr>
+									<p id="zmina3ua" onclick="selectText('zmina3ua')" lang="uk">
+										Залежно від вашого профілю система може відправити вам зустрічну пропозицію - кілька варіантів умов кредитування на вибір: з іншого сумою, терміном і відсотковою ставкою.<br>
+										При прийнятті рішення враховується вся надана інформація і дані кредитних бюро на момент оформлення заявки.
+									</p>
+									<p id="zmina3ru" onclick="selectText('zmina3ru')" lang="ru">
+										В зависимости от вашего профиля система может отправить вам встречное предложение - несколько вариантов условий кредитования на выбор: с другой суммой, сроком и процентной ставкой.<br>
+										При принятии решения учитывается вся предоставленная информация и данные кредитных бюро на момент оформления заявки.
+									</p>
+									<hr>
+									<p id="zmina4ua" onclick="selectText('zmina4ua')" lang="uk">
+										Після перевірки заявки приходить смс з пропозицією інших умов, які також відображаються в Особистому кабінеті перед підписанням договору. Така пропозиція буде діяти протягом 3 днів, після чого заявка буде автоматично відхилена.
+									</p>
+									<p id="zmina4ru" onclick="selectText('zmina4ru')" lang="ru">
+										После проверки заявки приходит смс с предложением других условий, которые также отображаются в Личном кабинете перед подписанием договора. Такое предложение будет действовать в течение 3 дней, после чего заявка будет автоматически отклонена.
+									</p>
+									<hr>
+									<a id="draft"></a>
+									<h4 lang="uk" class="center">Draft | Підписання договору</h4><h4 lang="ru" class="center">Draft | Подписание договора</h4>
+									<p id="draft1ua" onclick="selectText('draft1ua')" lang="uk">
+										Заявка знаходиться у Вашому особистому кабінеті на стадії підписання договору.<br>
+										Для отримання кредитних коштів на карту, Вам  необхідно підписати договір в особистому кабінеті на сайті.
+									</p>
+									<p id="draft1ru" onclick="selectText('draft1ru')" lang="ru">
+										Заявка находится в Вашем личном кабинете на стадии подписания договора.<br>
+										Для получения кредитных средств на карту, Вам  необходимо подписать договор в личном кабинете на сайте.
+									</p>
+									<hr>
+									<p id="draft2ua" onclick="selectText('draft2ua')" lang="uk">
+										Було прийтято позитивне рішення по заявці. Будь ласка, увійдіть до особистого кабінету та ознайомтесь з умовами кредитного договору.<br>
+										Для отримання кредитних коштів на карту, Вам  необхідно підписати договір в особистому кабінеті на сайті.
+									</p>
+									<p id="draft2ru" onclick="selectText('draft2ru')" lang="ru">
+										Было принято положительное решение по заявке. Пожалуйста, войдите в личный кабинет и ознакомьтесь с условиями кредитного 	договора.<br>
+										Для получения кредитных средств на карту Вам необходимо подписать договор в личном кабинете на сайте.
+									</p>
+									<hr>
+									<a id="signed"></a>
+									<h4 lang="uk" class="center">Signed | Проблема з зарахуванням</h4><h4 lang="ru" class="center">Signed | Проблема с зачислением</h4>
+									<p id="signed1ua" onclick="selectText('signed1ua')" lang="uk">
+										Переказ кредитних коштів не було здійснено, скоріше всього, договір найближчим часом буде анульовано. Після анулювання договору Вам надійде лист на електронну адресу і Ви зможете одразу подати наступну заявку.
+									</p>
+									<p id="signed1ru" onclick="selectText('signed1ru')" lang="ru">
+										Перевод кредитных средств не производится, скорее всего, договор в ближайшее время будет аннулирован. После аннулирования договора Вам поступит письмо на электронный адрес и Вы сможете сразу подать следующую заявку.
+									</p>
+									<hr>
+									<p id="signed2ua" onclick="selectText('signed2ua')" lang="uk">
+										Швидше за все через те, що Ваш банк не відхилив транзакцію переказ коштів не відбувається.
+										Будь ласка, зв'яжіться з банком для уточнення інформації.
+									</p>
+									<p id="signed2ru" onclick="selectText('signed2ru')" lang="ru">
+										Скорее всего из-за того, что Ваш банк отклонил транзакцию перевод средств не происходит.БикЮ
+										Пожалуйста, свяжитесь с банком для уточнения информации.
+									</p>
+									<hr>
+									<a id="cenceled"></a>
+									<h4 lang="uk" class="center">Cenceled | Договір анульовано</h4><h4 lang="ru" class="center">Cenceled | Договор аннулирован</h4>
+									<p id="cencel1ua" onclick="selectText('cencel1ua')" lang="uk">
+										Ваш договір було анульовано.<br>
+										Швидше за все, переказ грошових коштів був неуспішним.<br>
+										Ви можете одразу ж подати нову заявку на оформлення кредиту з використанням іншої картки.
+									</p>
+									<p id="cencel1ru" onclick="selectText('cencel1ru')" lang="ru">
+										Ваш договор был аннулирован.<br>
+										Скорее всего, перевод денежных средств был неуспешным.<br>
+										Вы можете сразу же подать новую заявку на оформление кредита с использованием другой карты.
+									</p>
+									<hr>
+									<p id="cencel2ua" onclick="selectText('cencel2ua')" lang="uk">
+										Ваш кредитний договір було анульовано, будь ласка, увійдіть до свого Особистого кабінету, додайте актуальну банківську карту і відправте заявку на розгляд.
+									</p>
+									<p id="cencel2ru" onclick="selectText('cencel2ru')" lang="ru">
+										Ваш кредитный договор был аннулирован, пожалуйста, войдите в свой Личный кабинет, добавьте актуальную банковскую карту и отправьте заявку на рассмотрение.
+									</p>
+									<hr>
+									<p id="cencel3ua" onclick="selectText('cencel3ua')" lang="uk">
+										Є дуже багато причин неуспішного перерахування коштів, наприклад: ліміт на зарахування, обмеження банку, недіюча карта та ін., на жаль, у нас немає детальної інформації про причину незарахування коштів.
+									</p>
+									<p id="cencel3ru" onclick="selectText('cencel3ru')" lang="ru">
+										Есть очень много причин неуспешного перечисления средств, например: лимит на зачисление, ограничение банка, недействующая карта и др., к сожалению, у нас нет детальной информации о причине незачисления средств.
+									</p>
+									<hr>
+									<a id="active"></a>
+									<h4 lang="uk" class="center">Active | Договір активний</h4><h4 lang="ru" class="center">Active | Договор активен</h4>
+									<p id="active1ua" onclick="selectText('active1ua')" lang="uk">
+										Договір активний, його було успішно підписано. Кредитні кошти вже перераховано на Вашу банківську картку.
+									</p>
+									<p id="active1ru" onclick="selectText('active1ru')" lang="ru">
+										Договор активен, он был успешно подписан. Кредитные средства уже перечислены на Вашу банковскую карту.
+									</p>
+									<hr>
+									<p id="active2ua" onclick="selectText('active2ua')" lang="uk">
+										Ви успішно підписали кредитний договір. Будь ласка, перевірте баланс картки, кредитні кошти вже перераховано.
+									</p>
+									<p id="active2ru" onclick="selectText('active2ru')" lang="ru">
+										Вы успешно подписали кредитный договор. Пожалуйста, проверьте баланс карты, кредитные средства уже перечислены.
+									</p>
+									<hr>
+									<a id="closed"></a>
+									<h4 lang="uk" class="center">Closed | Договір закрито</h4><h4 lang="ru" class="center">Closed | Договор закрыт</h4>
+									<p id="closed1ua" onclick="selectText('closed1ua')" lang="uk">
+										Даний договір закрито.<br>
+										На підтвердження цього Вам надійшло SMS-повідомлення на телефон. Довідка про закриття договору доступна для завантаження в особистому кабінеті.
+									</p>
+									<p id="closed1ru" onclick="selectText('closed1ru')" lang="ru">
+										Данный договор закрыт.<br>
+										В подтверждение этого вам поступило SMS-сообщение на телефон. Справка о закрытии договора доступна для погрузки в личном кабинете.
+									</p>
+									<hr>
+									<a id="vidmova"></a>
+									<h4 lang="uk" class="center">Відмова у кредиті</h4><h4 lang="ru" class="center">Отказ по кредиту</h4>
+									<p id="vidmova1ua" onclick="selectText('vidmova1ua')" lang="uk">
+										На жаль, автоматичною системою кредитного аналізу прийнято рішення про відмову у наданні кредиту по Вашій заявці.<br>
+										Ми не надаємо коментарів відносно причини відмови. Просимо віднестись з розумінням.
+									</p>
+									<p id="vidmova1ru" onclick="selectText('vidmova1ru')" lang="ru">
+										К сожалению автоматической системой кредитного анализа было принято решение об отказе в предоставлении кредита по Вашей заявке.<br>
+										Мы не предоставляем комментариев относительно причины отказа. Просим отнестись с пониманием.
+									</p>
+									<hr>
+									<p id="vidmova2ua" onclick="selectText('vidmova2ua')" lang="uk">
+										За Вашою заявою було прийнято рішення про відмову в кредитуванні.<br>
+										При прийнятті рішення враховується вся інформація, надана клієнтом та дані кредитних бюро на дату оформлення заявки. Найчастіше причиною відмови є дані з бюро кредитних історій. Тому ми рекомендуємо подавати наступну заявку через деякий час, коли кредитна історія буде мати тенденцію до поліпшення.
+									</p>
+									<p id="vidmova2ru" onclick="selectText('vidmova2ru')" lang="ru">
+										По Вашему заявке было принято решение об отказе в кредитовании.<br>
+										При принятии решения учитывается вся информация, предоставленная клиентом и данные кредитных бюро на дату оформления заявки. Чаще всего причиной отказа данные из бюро кредитных историй. Поэтому мы рекомендуем подавать следующую заявку через некоторое время, когда кредитная история будет иметь тенденцию к улучшению.
+									</p>
+									<hr>
+									<a id="vidmovak"></a>
+									<h3 lang="uk" class="center">Відмова від заяви / договору</h3><h3 lang="ru" class="center">Отказ от заявки / договора</h3>
+									<hr>
+									<a id="vidzap"></a>
+									<h4 lang="uk" class="center">Заповнення заяви</h4><h4 lang="ru" class="center">Заполнение заявки</h4>
+									<p id="vidzap1ua" onclick="selectText('vidzap1ua')" lang="uk">
+										Ваша заявка перебуває на стадії заповнення у Вашому Особистому кабінеті, вона не буде активною доти, доки Ви не відправите її на розгляд кредитному експерту.
+									</p>
+									<p id="vidzap1ru" onclick="selectText('vidzap1ru')" lang="ru">
+										Ваша заявка находится на стадии заполнения в Вашем Личном кабинете, она не будет активной до тех пор, пока Вы не отправите ее на рассмотрение кредитному эксперту.
+									</p>
+									<hr>
+									<p id="vidzap2ua" onclick="selectText('vidzap2ua')" lang="uk">
+										Заявка буде знаходитись на стадії заповнення протягом 5 днів, після вказаного терміну вона буде анульована автоматично.
+									</p>
+									<p id="vidzap2ru" onclick="selectText('vidzap2ru')" lang="ru">
+										Заявка будет находиться на стадии заполнения в течение 5 дней, после указанного срока она будет аннулирована автоматически.
+									</p>
+									<hr>
+									<a id="vidver"></a>
+									<h4 lang="uk" class="center">Верифікація за телефоном</h4><h4 lang="ru" class="center">Верификация по телефону</h4>
+									<p id="vidver1ua" onclick="selectText('vidver1ua')" lang="uk">
+										На даний момент Ваша заявка знаходиться на стадії верифікації по телефону. Будь ласка, повідомте інформацію про відмову від заявки кредитному експерту в телефонному режимі при розмові.
+									</p>
+									<p id="vidver1ru" onclick="selectText('vidver1ru')" lang="ru">
+										На данный момент Ваша заявка находится на стадии верификации по телефону. Пожалуйста, сообщите информацию об отказе от заявки специалисту компании в телефонном режиме при разговоре.
+									</p>
+									<hr>
+									<a id="vidzmin"></a>
+									<h4 lang="uk" class="center">Підтвердження зміни умов</h4><h4 lang="ru" class="center">Подтверждение смены условий</h4>
+									<p id="vidzmin1ua" onclick="selectText('vidzmin1ua')" lang="uk">
+										На даний момент ми не можемо відхилити Вашу заяву. Вам були запропоновані альтернативні варіанти кредитування, Ви можете обрати один із них, або ж проігнорувати пропозицію, в такому випадку, вона буде відхилена автоматично протягом трьох днів.
+									</p>
+									<p id="vidzmin1ru" onclick="selectText('vidzmin1ru')" lang="ru">
+										В настоящее время мы не можем отклонить Вашу заявку. Вам были предложены альтернативные варианты кредитования, Вы можете выбрать один из них, или же проигнорировать предложение, в таком случае оно будет отклонено автоматически в течение трех дней.
+									</p>
+									<hr>
+									<a id="vidpis"></a>
+									<h4 lang="uk" class="center">Підписання договору</h4><h4 lang="ru" class="center">Подписание договора</h4>
+									<p id="vidpis1ua" onclick="selectText('vidpis1ua')" lang="uk">
+										На даний час Ваш договір на стадії підписання. На жаль, на даному етапі, ми не можемо його анулювати.<br>
+										Ця пропозиція буде актуальною протягом доби, після закінчення зазначеного терміну договір анулюється автоматично.
+									</p>
+									<p id="vidpis1ru" onclick="selectText('vidpis1ru')" lang="ru">
+										В данный момент Ваш договор на стадии подписания. К сожалению, на данном этапе мы не можем его аннулировать.<br>
+										Это предложение будет актуально в течение суток, по истечении указанного срока договор аннулируется автоматически.
+									</p>
+									<hr>
+									<a id="kodpidpis"></a>
+									<h3 lang="uk" class="center">Код підписання / входу</h3><h3 lang="ru" class="center">Код подписания / входа</h3>
+									<p id="kod1ua" onclick="selectText('kod1ua')" lang="uk">
+										Повідомлення були успішно надіслані на Ваш номер телефону. Якщо Ви їх не отримали, рекомендуємо перезавантажити Ваш пристрій та перевірити папку спам в додатку обміну повідомлень Вашого пристрою.
+									</p>
+									<p id="kod1ru" onclick="selectText('kod1ru')" lang="ru">
+										Сообщения были успешно отправлены на Ваш номер телефона. Если Вы их не получили, рекомендуем перезагрузить устройство и проверить папку спам в приложении обмена сообщениями устройства.
+									</p>
+									<hr>
+									<p id="kod2ua" onclick="selectText('kod2ua')" lang="uk">
+										Всі повідомлення були успішно надіслані. Якщо Ви не отримали повідомлень, будь ласка, перезавантажте Ваш мобільний пристрій та очікуйте на SMS. Підписати договір можна кодом із останнього повідомлення.
+									</p>
+									<p id="kod2ru" onclick="selectText('kod2ru')" lang="ru">
+										Все сообщения были успешно отправлены. Если Вы не получили сообщений, пожалуйста, перезагрузите мобильное устройство и ожидайте SMS. Подписать договор можно кодом с последнего сообщения.
+									</p>
+									<hr>
+									<p id="kod3ua" onclick="selectText('kod3ua')" lang="uk">
+										Ви перевищили ліміт генерації коду, спробуйте здійснити запит через деякий час, або ж зверніться за телефоном служби підримки для збільшення ліміту.
+									</p>
+									<p id="kod3ru" onclick="selectText('kod3ru')" lang="ru">
+										Вы превысили лимит генерации кода, попробуйте повторить попытку через некоторое время, или же обратитесь по телефону службы поддержки для увеличения лимита.
+									</p>
+									<hr>
+									<a id="penya"></a>
+									<h3 class="center">Пеня</h3>
+									<p id="pen1ua" onclick="selectText('pen1ua')" lang="uk">
+										Компанія не нараховує пеню за активними договорами.  Якщо у Вас немає можливості повністю сплатити кредит, рекомендуємо продовжувати термін дії договору, так Ви не погіршите свою кредитну історію і зможете уникнути нарахувань відсотків по договору, умови якого не були виконані вчасно.
+									</p>
+									<p id="pen1ru" onclick="selectText('pen1ru')" lang="ru">
+										Компания не начисляет пеню по активным договорами. Если у Вас нет возможности полностью оплатить кредит, рекомендуем продлевать срок действия договора, так Вы не ухудшите свою кредитную историю и сможете избежать начислений процентов по договору, условия которого не были выполнены вовремя.
+									</p>
+									<hr>
+									<a id="shtraf"></a>
+									<h3 lang="uk" class="center">Штрафні відсотки</h3><h3 lang="ru" class="center">Штрафные проценты</h3>
+									<p id="sht1ua" onclick="selectText('sht1ua')" lang="uk">
+										Компанія не нараховує штрафні відсотки та пеню за активними договорами. Якщо у Вас немає можливості повністю сплатити кредит, рекомендуємо продовжувати термін дії договору, так Ви не погіршите свою кредитну історію і зможете уникнути нарахувань відсотків по договору, умови якого не були виконані вчасно.
+									</p>
+									<p id="sht1ru" onclick="selectText('sht1ru')" lang="ru">
+										Компания не начисляет штрафные проценты и пеню по активным договорам. Если у Вас нет возможности полностью оплатить кредит, рекомендуем продлевать срок действия договора, так Вы не ухудшите свою кредитную историю и сможете избежать начислений процентов по договору, условия которого не были выполнены вовремя.
+									</p>
+									<hr>
+									<p id="sht2ua" onclick="selectText('sht2ua')" lang="uk">
+										У випадку невиконання Позичальником умов договору щодо своєчасного повернення кредиту та сплати всіх платежів у визначений термін, проценти за користування кредитом з наступного дня нараховуються за ставкою згідно п.1.6 кредитного договору.
+									</p>
+									<p id="sht2ru" onclick="selectText('sht2ru')" lang="ru">
+										В случае невыполнения Заемщиком условий договора по своевременному возврату кредита и уплате всех платежей в срок, проценты за пользование кредитом со следующего дня начисляются по ставке согласно п.1.6 кредитного договора.
+									</p>
+									<hr>
+									<a id="vidzup"></a>
+									<h4 lang="uk" class="center">Відсотки зупинені</h4><h4 lang="ru" class="center">Проценты остановлены</h4>
+									<p id="vids1ua" onclick="selectText('vids1ua')" lang="uk">
+										Ми цінуємо та піклуємося про своїх клієнтів.<br>
+										За Вашим договором зупинено нарахування будь яких відсотків.<br>
+										Просимо вносити платежі онлайн способами оплати, за можливості.<br>
+										Дякуємо, що довіряєте нам та залишаєтесь нашим клієнтом.
+									</p>
+									<p id="vids1ru" onclick="selectText('vids1ru')" lang="ru">
+										Мы ценим и заботимся о своих клиентах.<br>
+										По Вашему договору остановлено начисление каких-либо процентов.<br>
+										Просим вносить платежи онлайн способами оплаты, по возможности.<br>
+										Спасибо, что доверяете нам и остаетесь нашим клиентом.
+									</p>
+									<hr>
+									<a id="chas"></a>
+									<h3 lang="uk" class="center">Часткове погашення</h3><h3 lang="ru" class="center">Частичное погашение</h3>
+									<p id="chas1ua" onclick="selectText('chas1ua')" lang="uk">
+										Часткове погашення і продовження це різні послуги.<br>
+										Часткове погашення - можливість оплатити частину заборгованості за діючим кредитним договором.<br>
+										Пролонгація договору - це продовження кредитного договору після завершення терміну його дії.<br>
+									</p>
+									<p id="chas1ru" onclick="selectText('chas1ru')" lang="ru">
+										Частичное погашение и продление это разные услуги.<br>
+										Частичное погашение - возможность оплатить часть задолженности по действующему кредитному договору.<br>
+										Пролонгация договора - это продление кредитного договора после завершения срока его действия.
+									</p>
+									<hr>
+									<p id="chas2ua" onclick="selectText('chas2ua')" lang="uk">
+										Ви можете здійснити часткове погашення будь-яким із способів, які вказані на сайті.<br>
+										Є можливість робити оплату неодноразово.<br>
+										Суму оплати Ви можете обрати власноруч.<br>
+									</p>
+									<p id="chas2ru" onclick="selectText('chas2ru')" lang="ru">
+										Вы можете осуществить частичное погашение любым из способов указанных на сайте.<br>
+										Есть возможность производить оплату неоднократно.<br>
+										Сумму оплаты Вы можете выбрать самостоятельно.<br>
+									</p>
+									<hr>
+									<p id="chas3ua" onclick="selectText('chas3ua')" lang="uk">
+										Часткове погашення - можливість оплатити частину заборгованості за діючим кредитним договором.<br>
+										Переваги часткової оплати:<br>
+										- ви обираєте будь-яку доступну для Вас суму для часткового платежу самі;<br>
+										- у Вас є можливість частково оплатити свій кредит у зручний для Вас час одним з варіантів вказаним на сайті в розділі "Як погасити кредит";<br>
+										- кількість часткових оплат для Вас необмежена.<br>
+										Звертаємо Вашу увагу, часткова оплата за кредитним договором не продовжує термін дії договору.
+									</p>
+									<p id="chas3ru" onclick="selectText('chas3ru')" lang="ru">
+										Частичное погашение - возможность оплатить часть задолженности по действующему кредитному договору.<br>
+										Преимущества частичной оплаты:<br>
+										- вы выбираете любую доступную для Вас сумму для частичного платежа сами;<br>
+										- у Вас есть возможность частично оплатить свой кредит в удобное для Вас время одним из вариантов указанным на сайте в разделе "Как погасить кредит";<br>
+										- количество частичных оплат для Вас не ограничено.<br>
+										Обращаем Ваше внимание, частичная оплата по кредитному договору  не продлевает срок действия договора.
+									</p>
+									<hr>
+									<a id="prolong"></a>
+									<h3 lang="uk" class="center">Пролонгація</h3><h3 lang="ru" class="center">Пролонгация</h3>
+									<p id="prol1ua" onclick="selectText('prol1ua')" lang="uk">
+										Рекомендуємо скористатися послугою пролонгація.<br>
+										Пролонгація договору - це продовження терміну дії кредитного договору.<br>
+										Переваги пролонгації:<br>
+										- пролонгація кредиту дозволяє довше користуватися коштами за фіксованою ставкою відсотків;<br>
+										- здійснивши послугу пролонгації Ваш кредит не лише продовжується на обраний період, але й зменшується заборгованість;<br>
+										- покращується кредитний рейтинг, адже це оплата, що вноситься за умовами кредитного договору.
+									</p>
+									<p id="prol1ru" onclick="selectText('prol1ru')" lang="ru">
+										Рекомендуем воспользоваться услугой пролонгация.
+										Пролонгация договора - это продление срока действия кредитного договора.<br>
+										Преимущества пролонгации:<br>
+										- пролонгация кредита позволяет дольше пользоваться средствами по фиксированной ставке процентов;<br>
+										- не только продлевается на указанный период, но и уменьшается задолженность;<br>
+										- улучшается кредитный рейтинг, ведь это оплата, вносится по условиям кредитного договора.
+									</p>
+									<hr>
+									<p id="prol2ua" onclick="selectText('prol2ua')" lang="uk">
+										В нашій компанії у Вас є можливість продовжити кредит на 3, 7 і 15 днів будь-який зручний для Вас час одним з варіантів, вказаним на сайті в розділі "Як погасити кредит".
+									</p>
+									<p id="prol2ru" onclick="selectText('prol2ru')" lang="ru">
+										В нашей компании у Вас есть возможность продлить кредит на 3, 7 и 15 дней любое удобное для Вас время одним из вариантов, указанным на сайте в разделе "Как погасить кредит".
+									</p>
+									<hr>
+									<p id="prol3ua" onclick="selectText('prol3ua')" lang="uk">
+										Для припинення нарахування відсотків за базовою ставкою Ви можете скористатись послугою пролонгації - продовження строку кредитного договору на 3, 7 та 15 днів. 
+									</p>
+									<p id="prol3ru" onclick="selectText('prol3ru')" lang="ru">
+										Для приостановления начисления процентов по базовой ставке Вы можете воспользоваться услугой пролонгации - продления срока кредитного договора на 3, 7 и 15 дней.
+									</p>
+									<hr>
+									<p id="prol4ua" onclick="selectText('prol4ua')" lang="uk">
+										Якщо у Вас немає можливості здійснити оплату в повному обсязі, компанія рекомендує оформити послугу лонгації. При лонгації - частково зменшується тіло Вашого кредиту, і відсотки які були раніше нараховані. У період лонгації можна вносити часткові погашення по кредиту.
+									</p>
+									<p id="prol4ru" onclick="selectText('prol4ru')" lang="ru">
+										Если у Вас нет возможности произвести оплату в полном объеме, компания рекомендует оформить услугу пролонгации. При пролонгации - частично уменьшается тело Вашего кредита, и проценты которые были ранее начислены. В период пролонгации можно вносить частичные погашения по кредиту.
+									</p>
+									<hr>
+								</div>
+								<div class="col-6">
+								<h5 class="center">Miloan</h5>
+									<p  id="prolm1ua" onclick="selectText('prolm1ua')" lang="uk">
+										Суму до продовження Ви завжди можете відстежити перейшовши за посиланням:<br>
+										https://miloan.ua/repayment<br>
+										Досить вказати тільки номер Вашого договору.
+									</p>
+									<p id="prolm1ru" onclick="selectText('prolm1ru')" lang="ru">
+										Сумму к продлению Вы всегда можете отследить перейдя по ссылке:<br>
+										https://miloan.ua/repayment<br>
+										Достаточно указать только номер Вашего договора.
+									</p>
+									<hr>
+									<p  id="prolm2ua" onclick="selectText('prolm2ua')" lang="uk">
+										Вартість пролонгації залежить від кількості днів. Більша частина платежу спрямовується на погашення існуючої заборгованості. На сайті відображається вартість кожного варіанта та складові платежу для обраного Вами варіанта пролонгації. Перейдіть за посиланням та введіть номер свого договору: https://miloan.ua/repayment
+									</p>
+									<p id="prolm2ru" onclick="selectText('prolm2ru')" lang="ru">
+										Стоимость пролонгации зависит от количества дней. Большая часть платежа направляется на погашение существующей задолженности. На сайте отражается стоимость каждого варианта и составляющие платежа для выбранного Вами варианта пролонгации. Перейдите по ссылке и введите номер своего договора: https://miloan.ua/repayment
+									</p>
+									<hr>
+									<p id="prolm3ua" onclick="selectText('prolm3ua')" lang="uk">
+										Рекомендуємо скористатися можливістю відстрочки кредиту на 3, 7 або 15 днів. Відповідна сума для пролонгації відобразиться при сплаті в Особистому кабінеті, а також при оплаті через Приват24, термінали ПриватБанку або EasyPay.<br>
+										Таким чином, оплачуючи пролонгації, наприклад, - кожні 15 днів, Ви поступово повернете кредит.<br>
+										Детальніше про вигідні умови пролонгації кредитів читайте на нашому сайті за посиланням: https://miloan.ua/s/prolongation
+									</p>
+									<p id="prolm3ru" onclick="selectText('prolm3ru')" lang="ru">
+										Рекомендуем воспользоваться возможностью отсрочки кредита на 3, 7 или 15 дней. Соответствующая сумма для пролонгации отобразится при уплате в Личном кабинете а также при оплате через Приват24, терминалы ПриватБанка или EasyPay.<br>
+										Таким образом, оплачивая пролонгации, например, - каждые 15 дней, Вы постепенно вернете кредит.<br>
+										Подробнее о выгодных условиях пролонгации кредитов читайте на нашем сайте по ссылке: https://miloan.ua/s/prolongation
+									</p>
+								</div>
+								<div class="col-6">
+								<h5 class="center">Tengo</h5>
+									<p id="prolt1ua" onclick="selectText('prolt1ua')" lang="uk">
+										Суму до продовження Ви завжди можете відстежити перейшовши за посиланням:<br>
+										https://tengo.ua/repayment<br>
+										Досить вказати тільки номер Вашого договору.
+									</p>
+									<p id="prolt1ru" onclick="selectText('prolt1ru')" lang="ru">
+										Сумму к продлению Вы всегда можете отследить перейдя по ссылке:<br>
+										https://tengo.ua/repayment<br>
+										Достаточно указать только номер Вашего договора.
+									</p>
+									<hr>
+									<p  id="prolt2ua" onclick="selectText('prolt2ua')" lang="uk">
+										Вартість пролонгації залежить від кількості днів. Більша частина платежу спрямовується на погашення існуючої заборгованості. На сайті відображається вартість кожного варіанта та складові платежу для обраного Вами варіанта пролонгації. Перейдіть за посиланням та введіть номер свого договору: https://tengo.ua/repayment
+									</p>
+									<p id="prolt2ru" onclick="selectText('prolt2ru')" lang="ru">
+										Стоимость пролонгации зависит от количества дней. Большая часть платежа направляется на погашение существующей задолженности. На сайте отражается стоимость каждого варианта и составляющие платежа для выбранного Вами варианта пролонгации. Перейдите по ссылке и введите номер своего договора: https://tengo.ua/repayment
+									</p>
+								<hr>
+									<p  id="prolt3ua" onclick="selectText('prolt3ua')" lang="uk">
+										Рекомендуємо скористатися можливістю відстрочки кредиту на 3, 7 або 15 днів. Відповідна сума для пролонгації відобразиться при сплаті в Особистому кабінеті, а також при оплаті через Приват24, термінали ПриватБанку або EasyPay.<br>
+										Таким чином, оплачуючи пролонгації, наприклад, - кожні 15 днів, Ви поступово повернете кредит.<br>
+										Детальніше про вигідні умови пролонгації кредитів читайте на нашому сайті за посиланням: https://tengo.ua/s/prolongation
+									</p>
+									<p id="prolt3ru" onclick="selectText('prolt3ru')" lang="ru">
+										Рекомендуем воспользоваться возможностью отсрочки кредита на 3, 7 или 15 дней. Соответствующая сумма для пролонгации отобразится при уплате в Личном кабинете а также при оплате через Приват24, терминалы ПриватБанка или EasyPay.<br>
+										Таким образом, оплачивая пролонгации, например, - каждые 15 дней, Вы постепенно вернете кредит.<br>
+										Подробнее о выгодных условиях пролонгации кредитов читайте на нашем сайте по ссылке: https://tengo.ua/s/prolongation
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="rest"></a>
+									<h3 lang="uk" class="center">Реструктуризація</h3><h3 lang="ru" class="center">Реструктуризация</h3>
+									<h5 lang="uk" class="center">протермінування 15+</h5><h5 lang="ru" class="center">просрочка 15+</h5>
+								</div>	
+								<div class="col-6">
+								<h5 class="center">Miloan</h5>
+									<p id="restm1ua" onclick="selectText('restm1ua')" lang="uk">
+										Для реструктуризації кредиту Вам необхідно подати заявку за посиланням: https://miloan.ua/restructuring , або ж натиснути на кнопку “Реструктуризувати” в особистому кабінеті чи на сторінці сплати без входу.
+									</p>
+									<p id="restm1ru" onclick="selectText('restm1ru')" lang="ru">
+										Для реструктуризации кредита Вам необходимо подать заявку по ссылке: https://miloan.ua/restructuring , или нажать кнопку "Реструктуризировать" в личном кабинете или на странице оплаты без входа.
+									</p>
+									<hr>
+									<p id="restm2ua" onclick="selectText('restm2ua')" lang="uk">
+										Ви можете залишити заявку на реструктуризацію, для цього достатньо перейти за посиланням, заповнити всі поля і відправити її.<br>
+										Посилання: https://miloan.ua/restructuring<br>
+										Ми обов'язково розглянемо Ваше звернення і надамо відповідь.
+									</p>
+									<p id="restm2ru" onclick="selectText('restm2ru')" lang="ru">
+										Вы можете оставить заявку на реструктуризацию, для этого достаточно перейти по ссылке, заполнить все поля и отправить ее.<br>
+										Ссылка: https://miloan.ua/restructuring<br>
+										Мы обязательно рассмотрим Ваше обращение и предоставим ответ.
+									</p>
+								</div>
+								<div class="col-6">
+								<h5 class="center">Tengo</h5>
+									<p id="restt1ua" onclick="selectText('restt1ua')" lang="uk">
+										Для реструктуризації кредиту Вам необхідно подати заявку за посиланням: https://tengo.ua/restructuring , або ж натиснути на кнопку “Реструктуризувати” в особистому кабінеті чи на сторінці сплати без входу.
+									</p>
+									<p id="restt1ru" onclick="selectText('restt1ru')" lang="ru">
+										Для реструктуризации кредита Вам необходимо подать заявку по ссылке: https://tengo.ua/restructuring , или нажать кнопку "Реструктуризировать" в личном кабинете или на странице оплаты без входа.
+									</p>
+									<hr>
+									<p id="restt2ua" onclick="selectText('restt2ua')" lang="uk">
+										Ви можете залишити заявку на реструктуризацію, для цього достатньо перейти за посиланням, заповнити всі поля і відправити її.<br>
+										Посилання: https://tengo.ua/restructuring<br>
+										Ми обов'язково розглянемо Ваше звернення і надамо відповідь.
+									</p>
+									<p id="restt2ru" onclick="selectText('restt2ru')" lang="ru">
+										Вы можете оставить заявку на реструктуризацию, для этого достаточно перейти по ссылке, заполнить все поля и отправить ее.<br>
+										Ссылка: https://tengo.ua/restructuring<br>
+										Мы обязательно рассмотрим Ваше обращение и предоставим ответ.
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="nagrs"></a>
+									<h4 lang="uk" class="center">Нагадування про реструктуризацію</h4><h4 lang="ru" class="center">Напоминание про реструктуризацию</h4>
+									<p id="nagrs1ua" onclick="selectText('nagrs1ua')" lang="uk">
+										Звертаємо Вашу увагу, що на вказану Вами електронну пошту було надано умови реструктуризації, рекомендуємо повторно ознайомитися із ними.<br>
+										Лист, який надійшов, є офіційним підтвердженням надання реструктуризації по Вашому договору.<br>
+										Варто зазначити, після проведення реструктуризації у клієнта Компанії з'являється спеціальна клавіша в Особистому кабінеті "Регулярний платіж", де також вказується рекомендована сума до сплати.
+									</p>
+									<p id="nagrs1ru" onclick="selectText('nagrs1ru')" lang="ru">
+										Обращаем Ваше внимание, что на указанную Вами электронную почту были предоставлены условия реструктуризации, рекомендуем повторно ознакомиться с ними.<br>
+										Письмо, которое поступило, является официальным подтверждением предоставления реструктуризации по Вашему договору.<br>
+										Стоит отметить, после проведения реструктуризации у клиента Компании появляется специальная клавиша в Личном кабинете "Регулярный платеж", где также указывается рекомендуемая сумма к оплате.
+									</p>
+									<hr>
+									<p id="nagrs2ua" onclick="selectText('nagrs2ua')" lang="uk">
+										Звертаємо увагу, Ми реструктуризували ваш кредит за договором №_______ від ________ р., щоб ви мали змогу його погасити!<br>
+										Що ж саме було змінено?<br>
+										Ставки: пільгова 0.01%, базова 1%; Скасування 100% пені за наявності;<br>
+										Лонгація 15 днів, зі сплатою _/_ частини залишку за кредитом, комісія 100 грн.;<br>
+										Сплачуйте на сайті варіант 15 днів - ___ грн;<br>
+										Зверніть увагу, що ставка у разі невиконання умов реструктуризації знижена до - 1%! Тому Вам краще сплачувати реструктуризацію кожні 15 днів, щоб кредит залишався стандартним, тоді нарахування процентів буде майже відсутнє, а залишок за кредитом буде зменшуватися. Платіть два рази на місяць і поступово сплатите кредит. Ви завжди може зробити дострокове часткове або повне погашення за Вашим кредитом.
+									</p>
+									<p id="nagrs2ru" onclick="selectText('nagrs2ru')" lang="ru">
+										Обращаем внимание, мы реструктуризировали ваш кредит по договору №_______ от ________ г., Чтобы вы могли его погасить!<br>
+										Что же было изменено?<br>
+										Ставки: льготная 0.01%, базовая 1%; Отмена 100% пени при наличии;<br>
+										Лонгация 15 дней, с уплатой _/_ части остатка по кредиту, комиссия 100 грн .;<br>
+										Платите на сайте вариант 15 дней - ___ грн;<br>
+										Обратите внимание, что ставка в случае невыполнения условий реструктуризации снижена до - 1%! Поэтому Вам лучше оплачивать реструктуризацию каждые 15 дней, чтобы кредит оставался стандартным, тогда начисления процентов будет почти отсутствует, а остаток по кредиту будет уменьшаться. Оплачивайте два раза в месяц и постепенно оплатите кредит. Вы всегда может сделать досрочное частичное или полное погашение по Вашему кредиту.
+									</p>
+									<hr>
+									<a id="discont"></a>
+									<h3 lang="uk" class="center">Дисконтування | Списання %</h3><h3 lang="ru" class="center">Дисконтирование | Списание %</h3>
+									<h5 lang="uk" class="center">протермінування 30+, якщо дуууже сумно то 25+</h5><h5 lang="ru" class="center">просрочка 30+, если оооочень грусто то 25+</h5>
+								</div>
+								<div class="col-6">
+									<h5 class="center">Miloan</h5>
+									<p id="dism1ua" onclick="selectText('dism1ua')" lang="uk">
+										Ви можете залишити звернення на списання нарахувань за посиланням:<br>
+										https://miloan.ua/restructuring<br>
+										Необхідно вказати ПІБ та номер телефону, email для зв'язку і причину звернення. В рядку з коментарем потрібно вказати - "Списання нарахувань зі сплатою залишку одним платежем".<br>
+										Ми обов'язково розглянемо Ваше звернення і надамо відповідь.
+									</p>
+									<p id="dism1ru" onclick="selectText('dism1ru')" lang="ru">
+										Вы можете оставить обращение на списание начислений по ссылке:<br>
+										https://miloan.ua/restructuring<br>
+										Необходимо указать ФИО и номер телефона, email для связи и причину обращения. В строке с комментарием нужно указать - "Списание 50% начислений с оплатой остатка одним платежем".<br>
+										Мы обязательно рассмотрим Ваше обращение и предоставим ответ.
+									</p>
+								</div>
+								<div class="col-6">
+									<h5 class="center">Tengo</h5>
+									<p id="dist1ua" onclick="selectText('dist1ua')" lang="uk">
+										Ви можете залишити звернення на списання нарахувань за посиланням:<br>
+										https://tengo.ua/restructuring<br>
+										Необхідно вказати ПІБ та номер телефону, email для зв'язку і причину звернення. В рядку з коментарем потрібно вказати - "Списання 50% нарахувань зі сплатою залишку одним платежем".<br>
+										Ми обов'язково розглянемо Ваше звернення і надамо відповідь.
+									</p>
+									<p id="dist1ru" onclick="selectText('dist1ru')" lang="ru">
+										Вы можете оставить обращение на списание 50% начислений по ссылке:<br>
+										https://tengo.ua/restructuring<br>
+										Необходимо указать ФИО и номер телефона, email для связи и причину обращения. В строке с комментарием нужно указать - "Списание 50% начислений с оплатой остатка одним платежем".<br>
+										Мы обязательно рассмотрим Ваше обращение и предоставим ответ.
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="disrs"></a>
+									<h3 lang="uk" class="center">Дисконтування або реструктуризація</h3><h3 lang="ru" class="center">Дисконтирование или реструктуризация</h3>
+									<h5 lang="uk" class="center">протермінування 30+ або 25+ по ситуації</h5><h5 lang="ru" class="center">просрочка 30+ или 25+ по ситуации</h5>
+								</div>
+								<div class="col-6">
+									<h5 class="center">Miloan</h5>
+									<p id="disrs1ua" onclick="selectText('disrs1ua')" lang="uk">
+										Компанія готова піти Вам назустріч та може запропонувати наступні варіанти:<br>
+										- можливість списання 50% нарахованих відсотків, у разі прийняття такого рішення потрібно буде сплатити одним платежем тіло кредиту та частину нарахувань;<br>
+										АБО<br>
+										- реструктуризація кредиту, це сплата кредиту рівними частинами кожні 15 днів.<br>
+										Ви можете залишити звернення за посиланням:<br>
+										https://miloan.ua/restructuring<br>
+										Необхідно вказати ПІБ та номер телефону, email для зв'язку і причину звернення. У рядку з коментарем просимо вказати варіант, який Вас влаштовує - "Списання нарахувань" або "Реструктуризація".<br>
+										Ми обов'язково розглянемо Ваше звернення і надамо відповідь.
+									</p>
+									<p id="disrs1ru" onclick="selectText('disrs1ru')" lang="ru">
+										Компания готова пойти Вам навстречу и может предложить следующие варианты:<br>
+										- возможность списания 50% начисленных процентов, при принятии такого решения нужно будет оплатить одним платежом тело кредита и часть начислений;<br>
+										ИЛИ<br>
+										- реструктуризация кредита, это оплата кредита равными частями каждые 15 дней.<br>
+										Вы можете оставить обращение по ссылке:<br>
+										https://miloan.ua/restructuring<br>
+										Необходимо указать ФИО и номер телефона, email для связи и причину обращения. В строке с комментарием просим указать вариант, который Вас устраивает – "Списание начислений" или "Реструктуризация".<br>
+										Мы обязательно рассмотрим Ваше обращение и предоставим ответ.
+									</p>
+								</div>
+								<div class="col-6">
+									<h5 class="center">Tengo</h5>
+									<p id="disrs2ua" onclick="selectText('disrs2ua')" lang="uk">
+										Компанія готова піти Вам назустріч та може запропонувати наступні варіанти:<br>
+										- можливість списання 50% нарахованих відсотків, у разі прийняття такого рішення потрібно буде сплатити одним платежем тіло кредиту та 50% нарахувань;<br>
+										АБО<br>
+										- реструктуризація кредиту, це сплата кредиту рівними частинами кожні 15 днів.<br>
+										Ви можете залишити звернення за посиланням:<br>
+										https://tengo.ua/restructuring<br>
+										Необхідно вказати ПІБ та номер телефону, email для зв'язку і причину звернення. У рядку з коментарем просимо вказати варіант, який Вас влаштовує - "Списання 50%" або "Реструктуризація".<br>
+										Ми обов'язково розглянемо Ваше звернення і надамо відповідь.
+									</p>
+									<p id="disrs2ru" onclick="selectText('disrs2ru')" lang="ru">
+										Компания готова пойти Вам навстречу и может предложить следующие варианты:<br>
+										- возможность списания 50% начисленных процентов, при принятии такого решения нужно будет оплатить одним платежом тело кредита и 50% начислений;<br>
+										ИЛИ<br>
+										- реструктуризация кредита, это оплата кредита равными частями каждые 15 дней.<br>
+										Вы можете оставить обращение по ссылке:<br>
+										https://tengo.ua/restructuring<br>
+										Необходимо указать ФИО и номер телефона, email для связи и причину обращения. В строке с комментарием просим указать вариант, который Вас устраивает – "Списание 50%" или "Реструктуризация".<br>
+										Мы обязательно рассмотрим Ваше обращение и предоставим ответ.
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="dissms"></a>
+									<h3 lang="uk" class="center">Дисконтування / SMS</h3><h3 lang="ru" class="center">Дисконтирование / SMS</h3>
+									<p id="dissms1ua" onclick="selectText('dissms1ua')" lang="uk">
+										Якщо для Вас актуальна пропозиція від компанії, яку Ви отримали в SMS-повідомленні, рекомендуємо перейти за посиланням та відправити заявку на розляд.<br>
+										Відповідь відобразиться в особистому кабінеті та надійде Вам на електронну пошту, яку Ви вказали при реєстрації.<br>
+										Звертаємо Вашу увагу: при позитивному розгляді такої пропозиції оплату необхідно здійснити в найкоротший термін та одним платежем!
+									</p>
+									<p id="dissms1ru" onclick="selectText('dissms1ru')" lang="ru">
+										Если для Вас актуально предложение от компании, которое Вы получили в SMS-сообщении, рекомендуем перейти по ссылке и отправить заявку на рассмотрение.<br>
+										Ответ отобразится в личном кабинете и поступит на электронную почту, которую Вы указали при регистрации.<br>
+										Обращаем Ваше внимание: при положительном рассмотрении такого предложения оплату необходимо произвести в кратчайшие сроки и одним платежом!
+									</p>
+									<hr>
+									<a id="dogs"></a>
+									<h3 lang="uk" class="center">Домовленність із спеціалістом</h3><h3 lang="ru" class="center">Договоренность из специалистом</h3>
+									<p id="dogs1ua" onclick="selectText('dogs1ua')" lang="uk">
+										Після оплати рекомендованої суми, інформація у Вашому Особистому кабінеті буде оновлена.<br>
+										Орієнтовний час очікування від 1 до 7 днів.<br>
+										У разі необхідності, після оновлення інформації,  Ви можете здійснити запит до служби підтримки для отримання довідки про погашення кредиту.
+									</p>
+									<p id="dogs1ru" onclick="selectText('dogs1ru')" lang="ru">
+										После оплаты рекомендованной суммы, информация в Вашем Личном кабинете будет обновлена.<br>
+										Ориентировочное время ожидания от 1 до 7 дней.<br>
+										В случае необходимости, после обновления информации, Вы можете осуществить запрос в службу поддержки для получения справки о погашении кредита.
+									</p>
+									<hr>
+									<a id="prodaga"></a>
+									<h3 class="center">Продажа</h3>
+									<hr>
+									<a id="kk"></a>
+									<h4 lang="uk" class="center">Кредит капітал</h4><h4 lang="ru" class="center">Кредит капитал</h4>
+									<p id="kk1ua" onclick="selectText('kk1ua')" lang="uk">
+										За Вашим кредитним договором відбулося відступлення права вимоги до компанії “ТОВ ФК Кредит Капітал”.<br>
+										У разі виникнення питань, пов'язаних з порядком розрахунків, будь ласка, звертайтеся за наступними реквізитами:<br>
+										Тел.: +38 (044) 247 66 80<br>
+										Тел.: +38 (044) 247 66 81<br>
+										Тел.: +38 (044) 247 72 06<br>
+										Email: info@primocollect.com.ua
+									</p>
+									<p id="kk1ru" onclick="selectText('kk1ru')" lang="ru">
+										По Вашему кредитному договору состоялась уступка права требования в компанию “ФК Кредит Капитал”.<br>
+										В случае возникновения вопросов, связанных с порядком расчетов, пожалуйста, обращайтесь по следующим реквизитам:<br>
+										Тел.: +38 (044) 247 66 80<br>
+										Тел.: +38 (044) 247 66 81<br>
+										Тел.: +38 (044) 247 72 06<br>
+										Email: info@primocollect.com.ua
+									</p>
+									<hr>
+									<a id="dg"></a>
+									<h4 lang="uk" class="center">Довіра та гарантія</h4><h4 lang="ru" class="center">Доверие и Гарантия</h4>
+									<p id="dg1ua" onclick="selectText('dg1ua')" lang="uk">
+										За Вашим кредитним договором відбулося відступлення права вимоги до компанії “ДОВІРА ТА ГАРАНТІЯ”.<br>
+										У разі виникнення питань, пов'язаних з порядком розрахунків, будь ласка, звертайтеся за наступними реквізитами:<br>
+										Тел.: +38 (044) 369-33-47<br>
+										Тел.: +38 (067) 369-33-37<br>
+										Тел.: +38 (093) 170-86-47<br>
+										Email: info@dgfinance.com.ua
+									</p>
+									<p id="dg1ru" onclick="selectText('dg1ru')" lang="ru">
+										По Вашему кредитному договору состоялась уступка права требования в компанию “ДОВІРА ТА ГАРАНТІЯ”.<br>
+										В случае возникновения вопросов, связанных с порядком расчетов, пожалуйста, обращайтесь по следующим реквизитам:<br>
+										Тел.: +38 (044) 369-33-47<br>
+										Тел.: +38 (067) 369-33-37<br>
+										Тел.: +38 (093) 170-86-47<br>
+										Email: info@dgfinance.com.ua
+									</p>
+									<hr>
+									<a id="df"></a>
+									<h4 lang="uk" class="center">ДІДЖИ ФІНАНС</h4><h4 lang="ru" class="center">ДИДЖИ ФИНАНС</h4>
+									<p id="df1ua" onclick="selectText('df1ua')" lang="uk">
+										За Вашим кредитним договором відбулося відступлення права вимоги до компанії «ДІДЖИ ФІНАНС».<br>
+										У разі виникнення питань, пов'язаних з порядком розрахунків, будь ласка, звертайтеся за наступними реквізитами:<br>
+										Тел.: +38 (044) 369-33-47<br>
+										Тел.: +38 (067) 369-33-37<br>
+										Тел.: +38 (093) 170-86-47<br>
+										Email: info@dgfinance.com.ua
+									</p>
+									<p id="df1ru" onclick="selectText('df1ru')" lang="ru">
+										По Вашему кредитному договору состоялась уступка права требования в компанию “ДИДЖИ ФИНАНС”<br>
+										В случае возникновения вопросов, связанных с порядком расчетов, пожалуйста, обращайтесь  по следующим реквизитам:<br>
+										Тел.: +38 (044) 369-33-47<br>
+										Тел.: +38 (067) 369-33-37<br>
+										Тел.: +38 (093) 170-86-47<br>
+										Email: info@dgfinance.com.ua
+									</p>
+									<hr>
+									<a id="pk"></a>
+									<h4 lang="uk" class="center">Профіт капітал</h4><h4 lang="ru" class="center">Профит капитал</h4>
+									<p id="pk1ua" onclick="selectText('pk1ua')" lang="uk">
+										За Вашим кредитним договором відбулося відступлення права вимоги до компанії «ФК Профіт капітал».<br>
+										У разі виникнення питань, пов'язаних з порядком розрахунків, будь ласка, звертайтеся  за наступними реквізитами:<br>
+										Тел.: +38 (044) 585-10-55<br>
+										Тел.: +38 (080) 020-82-08<br>
+										Тел.: +38 (093) 170-58-70<br>
+										Email: information@cafactor.com.ua
+									</p>
+									<p id="pk1ru" onclick="selectText('pk1ru')" lang="ru">
+										По Вашему кредитному договору состоялась уступка права требования в компанию “ФК Профит капитал”<br>
+										В случае возникновения вопросов, связанных с порядком расчетов, пожалуйста, обращайтесь  по следующим реквизитам:<br>
+										Тел.: +38 (044) 585-10-55<br>
+										Тел.: +38 (080) 020-82-08<br>
+										Тел.: +38 (093) 170-58-70<br>
+										Email: information@cafactor.com.ua
+									</p>
+									<hr>
+									<a id="pa"></a>
+									<h4 lang="uk" class="center">Преміум актив</h4><h4 lang="ru" class="center">Премиум актив</h4>
+									<p id="pa1ua" onclick="selectText('pa1ua')" lang="uk">
+										За Вашим кредитним договором відбулося відступлення права вимоги до компанії «ФК Преміум-актив».<br>
+										У разі виникнення питань, пов'язаних з порядком розрахунків, будь ласка, звертайтеся за наступними реквізитами:<br>
+										Тел.: +38 (080) 030-77-03<br>
+										Email: info@premium-aktiv.com.ua<br>
+									</p>
+									<p id="pa1ru" onclick="selectText('pa1ru')" lang="ru">
+										По Вашему кредитному договору произошла уступка права требования к компании «ФК Премиум-актив».<br>
+										В случае возникновения вопросов, связанных с порядком расчетов, пожалуйста, обращайтесь по следующим реквизитам:<br>
+										Тел.: +38 (080) 030-77-03<br>
+										Email: info@premium-aktiv.com.ua<br>
+									</p>
+									<hr>
+									<a id="vk"></a>
+									<h4 lang="uk" class="center">Вердикт капітал</h4><h4 lang="ru" class="center">Вердикт капитал</h4>
+									<p id="vk1ua" onclick="selectText('vk1ua')" lang="uk">
+										За Вашим кредитним договором відбулося відступлення права вимоги до компанії ТОВ «ВЕРДИКТ КАПІТАЛ».<br>
+										У разі виникнення питань, пов'язаних з порядком розрахунків, будь ласка, звертайтеся за наступними реквізитами:<br>
+										Тел.: +38 (044) 581-11-57<br>
+										Тел.: +38 (080) 060-45-37<br>
+										Email: office@verdict-capital.com<br>
+										Email: verdict.capital.com@gmail.com
+									</p>
+									<p id="vk1ru" onclick="selectText('vk1ru')" lang="ru">
+										По Вашему кредитному договору произошла уступка права требования к компании ТОВ «ВЕРДИКТ КАПИТАЛ».<br>
+										В случае возникновения вопросов, связанных с порядком расчетов, пожалуйста, обращайтесь по следующим реквизитам:<br>
+										Тел.: +38 (044) 581-11-57<br>
+										Тел.: +38 (080) 060-45-37<br>
+										Email: office@verdict-capital.com<br>
+										Email: verdict.capital.com@gmail.com
+									</p>
+									<hr>
+									<a id="oplata"></a>
+									<h3 lang="uk" class="center">Способи оплати</h3><h3 lang="ru" class="center">Способы оплаты</h3>
+								</div>
+								<div class="col-6">
+									<h5 class="center">Miloan</h5>
+									<p id="oplata1ua" onclick="selectText('oplata1ua')" lang="uk">
+										Погасити або продовжити користування кредитом можна наступними способами: https://miloan.ua/s/how-you-can-payback
+									</p>
+									<p id="oplata1ru" onclick="selectText('oplata1ru')" lang="ru">
+										Погасить или продлить пользование кредитом можно следующими способами: https://miloan.ua/s/how-you-can-payback
+									</p>
+									<hr>
+									<p id="oplata2ua" onclick="selectText('oplata2ua')" lang="uk">
+										Погасити або продовжити користування кредитом можна такими способами:<br>
+										- карткою на нашому сайті без входу в Особистий кабінет - https://miloan.ua/repayment<br>
+										- карткою в Особистому кабінеті на нашому сайті - https://miloan.ua/login<br>
+										- готівкою через термінали ПриватБанку - https://miloan.ua/s/oplata-v-terminale-privat24<br>
+										- безготівковим переказом через систему Приват24 - https://miloan.ua/s/oplata-v-privat24<br>
+										- карткою або готівкою через термінали EasyPay - https://miloan.ua/s/pogasenie-cerez-terminal-easypay<br>
+										- карткою на сайті EasyPay - https://easypay.ua/ua/catalog/bank/pogashenie-kredita/miloan<br>
+										Додаткові способи де Ви зможете здійснити тільки часткове або повне погашення:<br>
+										- будь яке відділення Нової пошти<br>
+										- термінали iBox, City24 та 2click.
+									</p>
+									<p id="oplata2ru" onclick="selectText('oplata2ru')" lang="ru">
+										Погасить или продлить пользование кредитом можно следующими способами:<br>
+										- картой на нашем сайте без входа в Личный кабинет - https://miloan.ua/repayment<br>
+										- картой в Личном кабинете на нашем сайте - https://miloan.ua/login<br>
+										- наличными через терминалы ПриватБанка - https://miloan.ua/s/oplata-v-terminale-privat24<br>
+										- безналичным переводом через систему Приват24 - https://miloan.ua/s/oplata-v-privat24<br>
+										- картой или наличными через терминалы EasyPay - https://miloan.ua/s/pogasenie-cerez-terminal-easypay<br>
+										- картой на сайте EasyPay - https://easypay.ua/ru/catalog/bank/pogashenie-kredita/miloan<br>
+										Дополнительные способы, где Вы сможете осуществить только частичное или полное погашение:<br>
+										- любое отделение Новой почты<br>
+										- терминалы iBox, City24 и 2click.
+									</p>
+								</div>
+								<div class="col-6">
+									<h5 class="center">Tengo</h5>
+									<p id="oplata3ua" onclick="selectText('oplata3ua')" lang="uk">
+										Погасити або продовжити користування кредитом можна наступними способами: https://tengo.ua/s/how-you-can-payback
+									</p>
+									<p id="oplata3ru" onclick="selectText('oplata3ru')" lang="ru">
+										Погасить или продлить пользование кредитом можно следующими способами: https://tengo.ua/s/how-you-can-payback
+									</p>
+									<hr>
+									<p id="oplata4ua" onclick="selectText('oplata4ua')" lang="uk">
+										Погасити або продовжити користування кредитом можна такими способами:<br>
+										- карткою на нашому сайті без входу в Особистий кабінет - https://tengo.ua/repayment<br>
+										- карткою в Особистому кабінеті на нашому сайті - https://tengo.ua/login<br>
+										- готівкою через термінали ПриватБанку - https://tengo.ua/s/oplata-v-terminale-privat24<br>
+										- безготівковим переказом через систему Приват24 - https://tengo.ua/s/oplata-v-privat24<br>
+										- карткою або готівкою через термінали EasyPay - https://tengo.ua/s/pogasenie-cerez-terminal-easypay<br>
+										- карткою на сайті EasyPay - https://easypay.ua/ua/catalog/bank/pogashenie-kredita/tengo<br>
+										Додаткові способи де Ви зможете здійснити тільки часткове або повне погашення:<br>
+										- термінали iBox, City24 та 2click.
+									</p>
+									<p id="oplata4ru" onclick="selectText('oplata4ru')" lang="ru">
+										Погасить или продлить пользование кредитом можно следующими способами:<br>
+										- картой на нашем сайте без входа в Личный кабинет - https://tengo.ua/repayment<br>
+										- картой в Личном кабинете на нашем сайте - https://tengo.ua/login<br>
+										- наличными через терминалы ПриватБанка - https://miloan.ua/s/oplata-v-terminale-privat24<br>
+										- безналичным переводом через систему Приват24 - https://tengo.ua/s/oplata-v-privat24<br>
+										- картой или наличными через терминалы EasyPay - https://tengo.ua/s/pogasenie-cerez-terminal-easypay<br>
+										- картой на сайте EasyPay - https://easypay.ua/ru/catalog/bank/pogashenie-kredita/tengo<br>
+										Дополнительные способы, где Вы сможете осуществить только частичное или полное погашение:<br>
+										- терминалы iBox, City24 и 2click.
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="spravka"></a>
+									<h3 lang="uk" class="center">Довідка про закриття договору</h3><h3 lang="ru" class="center">Справка о закрытии договора</h3>
+									<p id="spr1ua" onclick="selectText('spr1ua')" lang="uk">
+										Після погашення кредиту довідка буде доступна для завантаження в особистому кабінеті.<br>
+										Для того щоб завантажити довідку потрібно перейти до розділу "Мої кредити".
+									</p>
+									<p id="spr1ru" onclick="selectText('spr1ru')" lang="ru">
+										После погашения кредита справка будет доступна для загрузки в личном кабинете.<br>
+										Для того, чтобы загрузить справку, нужно перейти в раздел "Мои кредиты".
+									</p>
+									<hr>
+									<a id="bki"></a>
+									<h3 lang="uk" class="center">Активний УБКІ</h3><h3 lang="ru" class="center">Активный УБКИ</h3>
+									<p id="bki1ua" onclick="selectText('bki1ua')" lang="uk">
+										Ми передали інформацію до відповідного відділу, найближчим часом буде надіслано повторний запит та дані будуть оновлені.  Дякуємо, що повідомили про ситуацію, яка склалася. Приносимо свої вибачення.
+									</p>
+									<p id="bki1ru" onclick="selectText('bki1ru')" lang="ru">
+										Мы передали информацию в соответствующий отдел, в ближайшее время будет отправлен повторный запрос и данные будут обновлены. Спасибо, что сообщили о сложившейся ситуации. Приносим свои извинения.
+									</p>
+									<hr>
+									<a id="zminad"></a>
+									<h3 lang="uk" class="center">Зміна даних</h3><h3 lang="ru" class="center">Смена данных</h3>
+									<hr>
+									<a id="zminad1"></a>
+									<h4 lang="uk" class="center">Неможливо змінити дані | Активний кредит</h4><h4 lang="ru" class="center">Невозможно изменить данные | Активный кредит</h4>
+									<p id="zminad1ua" onclick="selectText('zminad1ua')" lang="uk">
+										На жаль, зараз змінити дані неможливо, так як у Вас є діючий договір в нашій компанії. Зміна можлива тільки після повного закриття кредиту.
+									</p>
+									<p id="zminad1ru" onclick="selectText('zminad1ru')" lang="ru">
+										К сожалению, сейчас изменить данные невозможно, так как у Вас есть действующий договор в нашей компании. Смена возможна только после полного закрытия кредита.
+									</p>
+									<hr>
+									<a id="zminan"></a>
+									<h4 lang="uk" class="center">Зміна основного номера</h4><h4 lang="ru" class="center">Смена основного номера</h4>
+								</div>
+								<div class="col-4">
+									<h5 class="center">Miloan</h5>
+									<p id="zminan1ua" onclick="selectText('zminan1ua')" lang="uk">
+										Для зміни основного номера, надішліть звернення за посиланням:<br>
+										https://miloan.ua/change-phone<br>
+										Вкажіть необхідні дані та очікуйте на зворотний зв'язок.
+									</p>
+									<p id="zminan1ru" onclick="selectText('zminan1ru')" lang="ru">
+										Для изменения основного номера телефона, отправьте обращение по ссылке:<br>
+										https://miloan.ua/change-phone<br>
+										Укажите нужные данные и ожидайте на обратную связь.
+									</p>
+								</div>
+								<div class="col-4">
+									<h5 class="center">Tengo</h5>
+									<p id="zminan2ua" onclick="selectText('zminan2ua')" lang="uk">
+										Для зміни основного номера, надішліть звернення за посиланням:<br>
+										https://tengo.ua/change-phone<br>
+										Вкажіть необхідні дані та очікуйте на зворотний зв'язок.
+									</p>
+									<p id="zminan2ru" onclick="selectText('zminan2ru')" lang="ru">
+										Для изменения основного номера телефона, отправьте обращение по ссылке:<br>
+										https://tengo.ua/change-phone<br>
+										Укажите нужные данные и ожидайте на обратную связь.
+									</p>
+								</div>
+								<div class="col-4">
+									<h5 class="center">Amigo</h5>
+									<p id="zminan3ua" onclick="selectText('zminan3ua')" lang="uk">
+										Для зміни основного номера, надішліть звернення за посиланням:<br>
+										https://amigo.com.ua/change-phone<br>
+										Вкажіть необхідні дані та очікуйте на зворотний зв'язок.
+									</p>
+									<p id="zminan3ru" onclick="selectText('zminan3ru')" lang="ru">
+										Для изменения основного номера телефона, отправьте обращение по ссылке:<br>
+										https://amigo.com.ua/change-phone<br>
+										Укажите нужные данные и ожидайте на обратную связь.
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="zminae"></a>
+									<h4 lang="uk" class="center">Зміна E-mail</h4><h4 lang="ru" class="center">Смена E-mail</h4>
+								</div>
+								<div class="col-4">
+									<h5 class="center">Miloan</h5>
+									<p id="zminae1ua" onclick="selectText('zminae1ua')" lang="uk">
+										Для зміни електронної пошти, відправте на info@miloan.ua листа з нової пошти, додайте Ваше фото з паспортом в руках на рівні Вашого обличчя. Це необхідно для ідентифікації Вас як клієнта і власника даного e-mail.<br>
+										У тексті листа вкажіть:<br>
+										"Прошу змінити вказану в анкеті - (вкажіть свої ПІБ повністю) ел.адресу на наступну - (вкажіть діючу пошту).<br>
+										Після внесення змін на Вашу нову ел.адресу надійде повідомлення.
+									</p>
+									<p id="zminae1ru" onclick="selectText('zminae1ru')" lang="ru">
+										Для смены электронной почты, отправьте на info@miloan.ua письмо c новой почты, добавьте Ваше фото паспортом в руках на уровне Вашего лица. Это необходимо для идентификации Вас как клиента и владельца данного e-mail.<br>
+										В тексте письма укажите:<br>
+										"Прошу изменить указанный в анкете - (укажите свои ФИО полностью) эл.адрес на следующий - (укажите действующую почту).<br>
+										После внесения изменений в ваш новый адрес поступит сообщение.
+									</p>
+								</div>
+								<div class="col-4">
+									<h5 class="center">Tengo</h5>
+									<p id="zminae2ua" onclick="selectText('zminae2ua')" lang="uk">
+										Для зміни електронної пошти, відправте на  info@tengo.ua листа з нової пошти, додайте Ваше фото з паспортом в руках на рівні Вашого обличчя. Це необхідно для ідентифікації Вас як клієнта і власника даного e-mail.<br>
+										У тексті листа вкажіть:<br>
+										"Прошу змінити вказану в анкеті - (вкажіть свої ПІБ повністю) ел.адресу на наступну - (вкажіть діючу пошту).<br>
+										Після внесення змін на Вашу нову ел.адресу надійде повідомлення.
+									</p>
+									<p id="zminae2ru" onclick="selectText('zminae2ru')" lang="ru">
+										Для смены электронной почты, отправьте на  info@tengo.ua письмо c новой почты, добавьте Ваше фото паспортом в руках на уровне Вашего лица. Это необходимо для идентификации Вас как клиента и владельца данного e-mail.<br>
+										В тексте письма укажите:<br>
+										"Прошу изменить указанный в анкете - (укажите свои ФИО полностью) эл.адрес на следующий - (укажите действующую почту).<br>
+										После внесения изменений в ваш новый адрес поступит сообщение.
+									</p>
+								</div>
+								<div class="col-4">
+									<h5 class="center">Amigo</h5>
+									<p id="zminae3ua" onclick="selectText('zminae3ua')" lang="uk">
+										Для зміни електронної пошти, відправте на info@amigo.com.ua листа з нової пошти, додайте Ваше фото з паспортом в руках на рівні Вашого обличчя. Це необхідно для ідентифікації Вас як клієнта і власника даного e-mail.<br>
+										У тексті листа вкажіть:<br>
+										"Прошу змінити вказану в анкеті - (вкажіть свої ПІБ повністю) ел.адресу на наступну - (вкажіть діючу пошту).<br>
+										Після внесення змін на Вашу нову ел.адресу надійде повідомлення.
+									</p>
+									<p id="zminae3ru" onclick="selectText('zminae3ru')" lang="ru">
+										Для смены электронной почты, отправьте на info@amigo.com.ua письмо c новой почты, добавьте Ваше фото паспортом в руках на уровне Вашего лица. Это необходимо для идентификации Вас как клиента и владельца данного e-mail.<br>
+										В тексте письма укажите:<br>
+										"Прошу изменить указанный в анкете - (укажите свои ФИО полностью) эл.адрес на следующий - (укажите действующую почту).<br>
+										После внесения изменений в ваш новый адрес поступит сообщение.
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="zminane"></a>
+									<h4 lang="uk" class="center">Зміна номера та E-mail</h4><h4 lang="ru" class="center">Смена номера и E-mail</h4>
+								</div>
+								<div class="col-4">
+									<h5 class="center">Miloan</h5>
+									<p id="zminane1ua" onclick="selectText('zminane1ua')" lang="uk">
+										Для зміни електронної пошти і номера телефону, відправте звернення за посиланням:<br>
+										https://miloan.ua/change-phone<br>
+										Вкажіть необхідні дані та додайте фото з паспортом в руках на рівні вашого обличчя. Це необхідно для ідентифікації Вас як клієнта і власника даного номеру та e-mail.
+									</p>
+									<p id="zminane1ru" onclick="selectText('zminane1ru')" lang="ru">
+										Для изменения электронной почты и номера телефона, отправьте обращение по ссылке:<br>
+										https://miloan.ua/change-phone<br>
+										Укажите нужные данные и добавьте фото с паспортом в руках на уровне вашего лица. Это необходимо для идентификации Вас как клиента и владельца данного номера и e-mail.
+									</p>
+								</div>
+								<div class="col-4">
+								<h5 class="center">Tengo</h5>
+									<p id="zminane2ua" onclick="selectText('zminane2ua')" lang="uk">
+										Для зміни електронної пошти і номера телефону, відправте звернення за посиланням:<br>
+										https://tengo.ua/change-phone<br>
+										Вкажіть необхідні дані та додайте фото з паспортом в руках на рівні вашого обличчя. Це необхідно для ідентифікації Вас як клієнта і власника даного номеру та e-mail.
+									</p>
+									<p id="zminane2ru" onclick="selectText('zminane2ru')" lang="ru">
+										Для изменения электронной почты и номера телефона, отправьте обращение по ссылке:<br>
+										https://tengo.ua/change-phone<br>
+										Укажите нужные данные и добавьте фото с паспортом в руках на уровне вашего лица. Это необходимо для идентификации Вас как клиента и владельца данного номера и e-mail.
+									</p>
+								</div>
+								<div class="col-4">
+									<h5 class="center">Amigo</h5>
+									<p id="zminane3ua" onclick="selectText('zminane3ua')" lang="uk">
+										Для зміни електронної пошти і номера телефону, відправте звернення за посиланням:<br>
+										https://amigo.com.ua/change-phone<br>
+										Вкажіть необхідні дані та додайте фото з паспортом в руках на рівні вашого обличчя. Це необхідно для ідентифікації Вас як клієнта і власника даного номеру та e-mail.
+									</p>
+									<p id="zminane4ru" onclick="selectText('zminane4ru')" lang="ru">
+										Для изменения электронной почты и номера телефона, отправьте обращение по ссылке:<br>
+										https://amigo.com.ua/change-phone<br>
+										Укажите нужные данные и добавьте фото с паспортом в руках на уровне вашего лица. Это необходимо для идентификации Вас как клиента и владельца данного номера и e-mail.
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="zminapib"></a>
+									<h4 lang="uk" class="center">Зміна ПІБ</h4><h4 lang="ru" class="center">Смена ФИО</h4>
+								</div>
+								<div class="col-4">
+									<h5 class="center">Miloan</h5>
+									<p id="zminapib1ua" onclick="selectText('zminapib1ua')" lang="uk">
+										Для того, щоб змінити прізвище Вам необхідно надіслати лист на нашу електронну пошту info@miloan.ua з діючої e-mail адреси з таким текстом:<br>
+										Я, (ПІБ) прошу змінити в Особистому кабінеті своє прізвище на (нове прізвище) у зв’язку з (причина зміни, наприклад:вийшла заміж, повернула собі дівоче прізвище і т.д.)<br>
+										До цього листа необхідно додати фото з паспортом на рівні обличчя та фото документу, який засвідчує зміну прізвища (наприклад: свідоцтво про шлюб та ін.).
+									</p>
+									<p id="zminapib1ru" onclick="selectText('zminapib1ru')" lang="ru">
+										Для того, чтобы изменить фамилию в анкете, Вам необходимо написать письмо на info@miloan.ua с действующего e-mail адреса , с таким текстом:<br>
+										Я, (ФИО) прошу изменить в Личном кабинете свою фамилию на (новая фамилия) в связи с (причина: вышла замуж, вернула девичью фамилию, развод и т.д.).<br>
+										К этому письму необходимо прикрепить фото с паспортом на уровне лица и фото документа подтверждающего изменение фамилии (например: свидетельство о браке или др.).
+									</p>
+								</div>
+								<div class="col-4">
+									<h5 class="center">Tengo</h5>
+									<p id="zminapib2ua" onclick="selectText('zminapib2ua')" lang="uk">
+										Для того, щоб змінити прізвище Вам необхідно надіслати лист на нашу електронну пошту info@tengo.ua з діючої e-mail адреси з таким текстом:<br>
+										Я, (ПІБ) прошу змінити в Особистому кабінеті своє прізвище на (нове прізвище) у зв’язку з (причина зміни, наприклад:вийшла заміж, повернула собі дівоче прізвище і т.д.)<br>
+										До цього листа необхідно додати фото з паспортом на рівні обличчя та фото документу, який засвідчує зміну прізвища (наприклад: свідоцтво про шлюб та ін.).
+									</p>
+									<p id="zminapib2ru" onclick="selectText('zminapib2ru')" lang="ru">
+										Для того, чтобы изменить фамилию в анкете, Вам необходимо написать письмо на info@tengo.ua с действующего e-mail адреса , с таким текстом:<br>
+										Я, (ФИО) прошу изменить в Личном кабинете свою фамилию на (новая фамилия) в связи с (причина: вышла замуж, вернула девичью фамилию, развод и т.д.).<br>
+										К этому письму необходимо прикрепить фото с паспортом на уровне лица и фото документа подтверждающего изменение фамилии (например: свидетельство о браке или др.).
+									</p>
+								</div>
+								<div class="col-4">
+									<h5 class="center">Amigo</h5>
+									<p id="zminapib3ua" onclick="selectText('zminapib3ua')" lang="uk">
+										Для того, щоб змінити прізвище Вам необхідно надіслати лист на нашу електронну пошту info@amigo.com.ua з діючої e-mail адреси з таким текстом:<br>
+										Я, (ПІБ) прошу змінити в Особистому кабінеті своє прізвище на (нове прізвище) у зв’язку з (причина зміни, наприклад:вийшла заміж, повернула собі дівоче прізвище і т.д.)<br>
+										До цього листа необхідно додати фото з паспортом на рівні обличчя та фото документу, який засвідчує зміну прізвища (наприклад: свідоцтво про шлюб та ін.).
+									</p>
+									<p id="zminapib3ru" onclick="selectText('zminapib3ru')" lang="ru">
+										Для того, чтобы изменить фамилию в анкете, Вам необходимо написать письмо на info@amigo.com.ua с действующего e-mail адреса , с таким текстом:<br>
+										Я, (ФИО) прошу изменить в Личном кабинете свою фамилию на (новая фамилия) в связи с (причина: вышла замуж, вернула девичью фамилию, развод и т.д.).<br>
+										К этому письму необходимо прикрепить фото с паспортом на уровне лица и фото документа подтверждающего изменение фамилии (например: свидетельство о браке или др.).
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="zminavnes"></a>
+									<h4 lang="uk" class="center">Зміни внесено</h4><h4 lang="ru" class="center">Изменения внесены</h4>
+									<p id="zminavnes1ua" onclick="selectText('zminavnes1ua')" lang="uk">
+										Зміни внесено!<br>
+										Будь ласка, увійдіть у Ваш Особистий кабінет для подачі заявки з актуальними даними.
+									</p>
+									<p id="zminavnes1ru" onclick="selectText('zminavnes1ru')" lang="ru">
+										Изменения внесены!<br>
+										Пожалуйста, войдите в Ваш Личный кабинет для отправления заявки с актуальными данными.
+									</p>
+									<hr>
+									<a id="problemi"></a>
+									<h3 lang="uk" class="center">Проблеми із входом</h3><h3 lang="ru" class="center">Проблемы с входом</h3>
+									<p id="prob1ua" onclick="selectText('prob1ua')" lang="uk">
+										Щодо Вашого звернення про те, що Ви не можете увійти в Особистий кабінет.<br>
+										Для того, щоб ми могли перевірити з якої причини це відбувається, будь ласка, повідомте свої прізвище, ім'я, по батькові, ІПН та актуальний номер телефону, з Вами зв'яжеться фахівець компанії для консультації.
+									</p>
+									<p id="prob1ru" onclick="selectText('prob1ru')" lang="ru">
+										Относительно Вашего обращения о том, что Вы не можете войти в Личный кабинет.<br>
+										Для того чтобы мы могли проверить, по какой причине это происходит, пожалуйста, сообщите свои фамилию, имя, отчество, ИНН и Ваш контактный номер телефона, с Вами свяжется специалист компании для консультации.
+									</p>
+									<hr>
+									<a id="bloklk"></a>
+									<h3 lang="uk" class="center">Блокування ОК</h3><h3 lang="ru" class="center">Блокировка ЛК</h3>
+									<hr>
+									<a id="bloklk1"></a>
+									<h4 lang="uk" class="center">Прохання заблокувати</h4><h4 lang="ru" class="center">Просьба блокировки</h4>
+									<p id="bloklk1ua" onclick="selectText('bloklk1ua')" lang="uk">
+										Для блокування Вашого профілю необхідно телефонне підтвердження.<br>
+										Вам буде зручно, якщо протягом 5 хвилин Вам надійде дзвінок від представника компанії?
+									</p>
+									<p id="bloklk1ru" onclick="selectText('bloklk1ru')" lang="ru">
+										Для блокировки Вашей учетной записи необходимо телефонное подтверждение.<br>
+										Вам будет удобно, если в течении 5 минут Вам поступит звонок от представителя компании?
+									</p>
+									<hr>
+									<p id="bloklk2ua" onclick="selectText('bloklk2ua')" lang="uk">
+										Телефонна розмова є обов'язковою умовою для блокування Особистого кабінету, будь ласка, зв'яжіться з нами коли Вам буде зручно.
+									</p>
+									<p id="bloklk2ru" onclick="selectText('bloklk2ru')" lang="ru">
+										Телефонный разговор является обязательным условием для блокировки Личного кабинета, пожалуйста, свяжитесь с нами когда Вам будет удобно.
+									</p>
+									<hr>
+									<a id="bloklk2"></a>
+									<h4 lang="uk" class="center">Запит на блокування передано</h4><h4 lang="ru" class="center">Запрос на блокировку передан</h4>
+									<p id="bloklk3ua" onclick="selectText('bloklk3ua')" lang="uk">
+										Ваш запит передано в службу технічної підтримки, обліковий запис буде заблоковано, Особистий кабінет деперсоніфіковано.<br>
+										У випадку, якщо Ви захочете знову стати нашим клієнтом, будь ласка, зверніться за номером клієнтської підтримки.
+									</p>
+									<p id="bloklk3ru" onclick="selectText('bloklk3ru')" lang="ru">
+										Ваш запрос передан в службу технической поддержки, аккаунт будет заблокирован, Личный кабинет деперсонифицирован.<br>
+										В случае, если Вы хотите вновь стать нашим клиентом, пожалуйста, обратитесь за номером клиентской поддержки.
+									</p>
+									<hr>
+									<a id="bloklk3"></a>
+									<h4 lang="uk" class="center">Заблоковано назавжди</h4><h4 lang="ru" class="center">Заблокировано навсегда</h4>
+									<p id="bloklk4ua" onclick="selectText('bloklk4ua')" lang="uk">
+										Ваш обліковий запис заблоковано. Це означає, що Ви не можете продовжувати користуватися нашим сервісом.<br>
+										Ми не коментуємо причини та просимо поставитися із розумінням.
+									</p>
+									<p id="bloklk4ru" onclick="selectText('bloklk4ru')" lang="ru">
+										Ваша учетная запись заблокирована. Это означает, что Вы не можете продолжать пользоваться нашим сервисом.<br>
+										Мы не комментируем причины и просим отнестись c пониманием.
+									</p>
+									<hr>
+									<a id="reksms"></a>
+									<h3 lang="uk" class="center">SMS рекламного характеру</h3><h3 lang="ru" class="center">SMS рекламного характера</h3>
+									<p id="rek1ua" onclick="selectText('rek1ua')" lang="uk">
+										Звертаємо Вашу увагу, дані повідомлення, можуть надходити від компаній, що займаються інформуванням про послуги кредитування.<br>
+										Перегляньте, будь ласка, хто є відправником даних повідомлень.
+									</p>
+									<p id="rek1ru" onclick="selectText('rek1ru')" lang="ru">
+										Обращаем Ваше внимание, данные сообщения могут поступать от компаний, занимающихся информированием об услугах кредитования.<br>
+										Просмотрите, пожалуйста, кто отправитель данных сообщений.
+									</p>
+									<hr>
+									<a id="personal"></a>
+									<h3 lang="uk" class="center">Персональні дані</h3><h3 lang="ru" class="center">Персональные данные</h3>
+									<p id="per1ua" onclick="selectText('per1ua')" lang="uk">
+										Ми можемо заблокувати Ваш особистий кабінет в цілях безпеки. Однак повністю видалити всі дані неможливо. За вимогою НБУ ми повинні зберігати інформацію про подані заявки на кредит певний час.
+									</p>
+									<p id="per1ru" onclick="selectText('per1ru')" lang="ru">
+										Мы можем заблокировать Ваш личный кабинет в целях безопасности. Однако полностью удалить все данные невозможно. По требованию НБУ мы должны хранить информацию о поданных заявках на кредит определенное время.
+									</p>
+									<hr>
+									<p id="per2ua" onclick="selectText('per2ua')" lang="uk">
+										Сервіс Miloan використовує захищені канали зв'язку і сервери. Ми ретельно стежимо за збереженням конфіденційності клієнтських даних і їх використанням за цільовим призначенням.
+									</p>
+									<p id="per2ru" onclick="selectText('per2ru')" lang="ru">
+										Сервис Miloan использует защищенные каналы связи и серверы. Мы тщательно следим за сохранением конфиденциальности клиентских данных и их использованием по целевому назначению.
+									</p>
+									<hr>
+									<a id="peredano"></a>
+									<h3 lang="uk" class="center">Передано до юридичного відділу</h3><h3 lang="ru" class="center">Передано в юридический отдел</h3>
+									<p id="pered1ua" onclick="selectText('pered1ua')" lang="uk">
+										Ваше звернення передано до юридичного відділу. Відповідь буде надана відповідно до вимог чинного законодавства України.
+									</p>
+									<p id="pered1ru" onclick="selectText('pered1ru')" lang="ru">
+										Ваше обращение передано в юридический отдел. Ответ будет предоставлен в соответствии с требованиями действующего законодательства Украины.
+									</p>
+									<hr>
+									<a id="peredano2"></a>
+									<h3 lang="uk" class="center">Передано до фінансового відділу</h3><h3 lang="ru" class="center">Передано в финансовый отдел</h3>
+									<p id="pered2ua" onclick="selectText('pered2ua')" lang="uk">
+										Ваше звернення передано до фінансового відділу, ми будемо намагатись вирішити дане питання в найкоротші терміни.<br>
+										Після опрацювання звернення з Вами зв'яжеться представник компанії.
+									</p>
+									<p id="pered2ru" onclick="selectText('pered2ru')" lang="ru">
+										Ваше обращение передано в финансовый отдел, мы постараемся решить данный вопрос в кратчайшие сроки.<br>
+										После обработки обращения с Вами свяжется представитель компании.
+									</p>
+									<hr>
+									<a id="peredano3"></a>
+									<h3 lang="uk" class="center">Передано до технічного відділу</h3><h3 lang="ru" class="center">Передано в технический отдел</h3>
+									<p id="pered3ua" onclick="selectText('pered3ua')" lang="uk">
+										Ваше звернення передано в службу технічної підтримки, ми будемо намагатись вирішити дане питання в найкоротші терміни.<br>
+										Дякуємо за звернення!
+									</p>
+									<p id="pered3ru" onclick="selectText('pered3ru')" lang="ru">
+										Ваше обращение передано в службу технической поддержки, мы будем пытаться решить данный вопрос в кратчайшие сроки.<br>
+										Спасибо за обращение!
+									</p>
+									<hr>
+									<a id="zvernen"></a>
+									<h3 lang="uk" class="center">Звернення розглядається</h3><h3 lang="ru" class="center">Обращение рассматриваеться</h3>
+									<p id="zver1ua" onclick="selectText('zver1ua')" lang="uk">
+										Ваше звернення на даний момент розглядається. Відповідь Вам обов’язково буде надано, очікуйте будь ласка.
+									</p>
+									<p id="zver1ru" onclick="selectText('zver1ru')" lang="ru">
+										Ваше обращение на данный момент рассматривается. Ответ Вам обязательно будет предоставлен, ожидайте пожалуйста.
+									</p>
+									<hr>
+									<p id="zver2ua" onclick="selectText('zver2ua')" lang="uk">
+										Ми  розглядаємо всі звернення які надходять до Компанії.<br>
+										На жаль, по Вашому зверненню ще не відображається готова відповідь, потрібно очікувати на рішення!<br>
+										Тільки після отримання рішення ми зможемо дізнатись чи може Компанія піти Вам назустріч та задовольнити Ваш запит.
+									</p>
+									<p id="zver2ru" onclick="selectText('zver2ru')" lang="ru">
+										Мы рассматриваем все обращения, поступающие в Компанию.<br>
+										К сожалению, по Вашему обращению еще не отображается готовый ответ, нужно ожидать решения!<br>
+										Только после получения решения мы сможем узнать, может ли Компания пойти Вам навстречу и удовлетворить Ваш запрос.
+									</p>
+									<hr>
+									<p id="zver3ua" onclick="selectText('zver3ua')" lang="uk">
+										Відповідно до Закону України "Про звернення громадян" Ви отримаєте відповідь не пізніше ніж через 30 днів з дати отримання звернення. Будь ласка, очікуйте відповіді на зворотну адресу.<br>
+										Будь ласка, перевірте звіт про доставку Вашого листа (на пошті) і якщо лист успішно доставлено, то ми обов'язково надамо Вам відповідь.
+									</p>
+									<p id="zver3ru" onclick="selectText('zver3ru')" lang="ru">
+										Согласно закону Украины "Об обращении граждан" Вы получите ответ не позже чем через 30 дней с даты получения обращения. Пожалуйста ожидайте ответ на обратный адрес.<br>
+										Пожалуйста, проверьте отчет о доставке Вашего письма (на почте) и если письмо успешно доставлено, то мы обязательно предоставим Вам ответ.
+									</p>
+									<hr>
+									<a id="spiv"></a>
+									<h3 lang="uk" class="center">Співпраця</h3><h3 lang="ru" class="center">Сотрудничество</h3>
+									<p id="spiv1ua" onclick="selectText('spiv1ua')" lang="uk">
+										Якщо у Вас є пропозиції або питання по співпраці з ТОВ "Мілоан" Ви можете написати лист на нашу електронну адресу. Будь ласка, в темі листа такого характеру вкажіть : "Співпраця" і назву відділу в який Ви бажаєте направити Ваше звернення.<br>
+										Якщо Ваш лист буде актуальний для нас, представник нашої компанії обов'язково зв'яжеться з Вами! 
+									</p>
+									<p id="spiv1ru" onclick="selectText('spiv1ru')" lang="ru">
+										Если у Вас есть предложения или вопросы по сотрудничеству с ТОВ "Милоан" вы можете написать письмо на наш e-mail.
+										Пожалуйста, в теме письма такого характера укажите : "Сотрудничество" и название отдела в который Вы желаете направить Ваше обращение.<br>
+										Если Ваше письмо будет актуально для нас, представитель нашей компании обязательно свяжется с Вами!
+									</p>
+									<hr>
+									<a id="podyaka"></a>
+									<h3 lang="uk" class="center">Подяка</h3><h3 lang="ru" class="center">Благодарность</h3>
+									<p id="pod1ua" onclick="selectText('pod1ua')" lang="uk">
+										Дякуємо за відгук!<br>
+										Нам важлива Ваша думка, ми працюємо над тим, щоб наш сервіс був більш досконалим та зручним для Вас.
+									</p>
+									<p id="pod1ru" onclick="selectText('pod1ru')" lang="ru">
+										Спасибо за отзыв!<br>
+										Нам важно Ваше мнение, мы работаем над тем, чтобы наш сервис был более совершенным и удобным для Вас.
+									</p>
+									<hr>
+									<p id="pod2ua" onclick="selectText('pod2ua')" lang="uk">
+										Дякуємо за звернення. У разі виникнення додаткових питань, Ви завжди можете звернутись до нас.<br>
+										Гарного дня!
+									</p>
+									<p id="pod2ru" onclick="selectText('pod2ru')" lang="ru">
+										Спасибо за обращение. В случае возникновения дополнительных вопросов Вы всегда можете обратится к нам.<br>
+										Хорошего дня!
+									</p>
+									<hr>
+									<a id="rekviz"></a>
+									<h3 lang="uk" class="center">Реквізити Miloan</h3><h3 lang="ru" class="center">Реквизити Miloan</h3>
+									<p id="rekviz1ua" onclick="selectText('rekviz1ua')" lang="uk">
+										Будь ласка, залиште своє звернення за вказаними нижче реквізитами, компанія прикладе максимум зусиль для надання відповіді в найкоротший термін:<br>
+										ТОВ «МІЛОАН» Україна<br>
+										04107<br>
+										м.Київ, вул. Багговутівська, буд.17-21
+									</p>
+									<p id="rekviz1ru" onclick="selectText('rekviz1ru')" lang="ru">
+										Пожалуйста, оставьте свое обращение за указанными ниже реквизитами, компания приложит максимум усилий для предоставления ответа в кратчайшие сроки:<br>
+										ООО «МИЛОАН» Украина<br>
+										04107<br>
+										г.Киев, ул. Багговутовская, д.17-21
+									</p>
+									<hr>
+									<a id="zapros"></a>
+									<h3 lang="uk" class="center">Запросили договір / довідку / виписку</h3><h3 lang="ru" class="center">Запросили договор / справку / выписку</h3>
+									<p id="zapros1ua" onclick="selectText('zapros1ua')" lang="uk">
+										Ваше звернення щодо _____  №_____ було передано до відповідного відділу.<br>
+										Будь ласка, очікуйте відповідь на Вашу пошту найближчим часом!
+									</p>
+									<p id="zapros1ru" onclick="selectText('zapros1ru')" lang="ru">
+										Ваше обращение по поводу _____  №_____ было передано в соответствующий отдел.<br>
+										Пожалуйста, ожидайте ответа на Вашу почту в ближайшее время!
+									</p>
+									<hr>
+									<a id="zapotk"></a>
+									<h3 lang="uk" class="center">Не можемо надати договір / довідку / виписку</h3><h3 lang="ru" class="center">Не можем предоставить / справку / выписку</h3>
+									<p id="zapotk1ua" onclick="selectText('zapotk1ua')" lang="uk">
+										Приносимо вибачення, але надати даний документ ми можемо тільки клієнту, надіславши його на особисту пошту, яка була вказана при реєстрації особистого кабінету.
+									</p>
+									<p id="zapotk1ru" onclick="selectText('zapotk1ru')" lang="ru">
+										Приносим извинения, но предоставить данный документ мы можем только клиенту, отправив его на личную почту, указанную при регистрации личного кабинета.
+									</p>
+									<hr>
+									<a id="zaprosn"></a>
+									<h3 lang="uk" class="center">Надаємо договір / довідку / виписку</h3><h3 lang="ru" class="center">Предоставляем договор / справку / выписку</h3>
+								</div>	
+								<div class="col-4">
+									<h5 lang="uk" class="center">Договір</h5><h5 lang="ru" class="center">Договор</h5>
+									<p id="zapn1ua" onclick="selectText('zapn1ua')" lang="uk">
+										Надаємо договір про отримання кредиту №_____<br>
+										Дякуємо, що користуєтесь послугами нашої компанії!
+									</p>
+									<p id="zapn1ru" onclick="selectText('zapn1ru')" lang="ru">
+										Предоставляем договор о получении кредита №_____<br>
+										Спасибо, что пользуетесь услугами нашей компании!
+									</p>
+								</div>
+								<div class="col-4">
+									<h5 lang="uk" class="center">Довідка</h5><h5 lang="ru" class="center">Справка</h5>
+									<p id="zapn2ua" onclick="selectText('zapn2ua')" lang="uk">
+										Надаємо довідку про закриття кредитного договору №_____<br>
+										Дякуємо, що користуєтесь послугами нашої компанії!
+									</p>
+									<p id="zapn2ru" onclick="selectText('zapn2ru')" lang="ru">
+										Предоставляем справку о закритии кредитного договора №_____<br>
+										Спасибо, что пользуетесь услугами нашей компании!
+									</p>
+								</div>
+								<div class="col-4">
+									<h5 lang="uk" class="center">Виписка</h5><h5 lang="ru" class="center">Выписка</h5>
+									<p id="zapn3ua" onclick="selectText('zapn3ua')" lang="uk">
+										Надаємо виписку по нарахуванням за кредитним договором №_____<br>
+										Дякуємо, що користуєтесь послугами нашої компанії!
+									</p>
+									<p id="zapn3ru" onclick="selectText('zapn3ru')" lang="ru">
+										Предоставляем выписку по начислениям кредитного договора №_____<br>
+										Спасибо, что пользуетесь услугами нашей компании!
+									</p>
+								</div>
+								<div class="col-12">
+									<a id="pidpis"></a>
+									<h3 lang="uk" class="center">Підпис</h3><h3 lang="ru" class="center">Подпись</h3>
+								</div>
+								<div class="col-4">
+								<h5 class="center">Miloan</h5>
+									<p id="p1ua" onclick="selectText('p1ua')" lang="uk">
+										З повагою,</br>
+										Служба підтримки клієнтів Мілоан</br>
+										тел.: (044)337-36-67</br>
+										e-mail: info@miloan.ua
+									</p>
+									<p id="p1ru" onclick="selectText('p1ru')" lang="ru">
+										С уважением,</br>
+										Служба поддержки клиентов Милоан</br>
+										тел.: (044)337-36-67</br>
+										e-mail: info@miloan.ua
+									</p>
+								</div>
+								<div class="col-4">
+								<h5 class="center">Tengo</h5>
+									<p  id="p2ua" onclick="selectText('p2ua')" lang="uk">
+										З повагою,</br>
+										Служба підтримки клієнтів Тенго</br>
+										тел.: (044)337-00-37</br>
+										e-mail: info@tengo.ua
+									</p>
+									<p id="p2ru" onclick="selectText('p2ru')" lang="ru">
+										С уважением,</br>
+										Служба поддержки клиентов Тенго</br>
+										тел.: (044)337-00-37</br>
+										e-mail: info@tengo.ua
+									</p>
+								</div>
+								<div class="col-4">
+								<h5 class="center">Amigo</h5>
+									<p  id="p3ua" onclick="selectText('p3ua')" lang="uk">
+										З повагою,</br>
+										Служба підтримки клієнтів Аміго</br>
+										тел.: (044)337-00-33</br>
+										e-mail: info@amigo.com.ua
+									</p>
+									<p id="p3ru" onclick="selectText('p3ru')" lang="ru">
+										С уважением,</br>
+										Служба поддержки клиентов Амиго</br>
+										тел.: (044)337-00-33</br>
+										e-mail: info@amigo.com.ua
+									</p>
+								</div>
+								<div class="col-12">
+									<hr>
+									<a id="zaboron"></a>
+									<h3 lang="uk" class="center">Заборонені шаблони</h3><h3 lang="ru" class="center">Запрещенные шаблоны</h3>
+									<h5 lang="uk" class="center">ТІЛЬКИ З ДОЗВОЛУ СТАРШИХ СПЕЦІАЛІСТІВ</h5><h5 lang="ru" class="center">ТОЛЬКО С РАЗРЕШЕНИЯ СТАРШИХ СПЕЦИАЛИСТОВ</h5>
+									<hr>
+									<a id="anuluvan"></a>
+									<h4 lang="uk" class="center">Анулювання договору</h4><h4 lang="ru" class="center">Аннулирование договора</h4>
+									<p id="anu1ua" onclick="selectText('anu1ua')" lang="uk">
+										Для того щоб анулювати договір, будь ласка, внесіть сьогодні отримані кредитні кошти - ____ грн. і напишіть нам на E-mail лист приблизно такого змісту:<br>
+										Я, ПІБ, прошу анулювати договір №_____, так як не планую користуватися кредитом в зв'язку з обставинами, що змінилися.
+									</p>
+									<p id="anu1ru" onclick="selectText('anu1ru')" lang="ru">
+										Чтобы аннулировать договор, пожалуйста, внесите сегодня полученные кредитные средства - ____ грн. и напишите нам на E-mail письмо примерно следующего содержания:<br>
+										Я, ФИО, прошу аннулировать договор №_____, так как не планирую пользоваться кредитом в связи с изменившимися обстоятельствами.
+									</p>
+									<hr>
+									<a id="rekvo"></a>
+									<h4 lang="uk" class="center">Реквізити оплати</h4><h4 lang="ru" class="center">Реквизиты оплаты</h4>
+									<p id="rekvo1ua" onclick="selectText('rekvo1ua')">
+										ПЕЧЕРСЬКА ФIЛIЯ АТ КБ "ПРИВАТБАНК",<br>
+										ЄДРПОУ 14360570<br>
+										Печерський філіал, м.Київ<br>
+										МФО 300711<br>
+										Клієнт: ТОВ МIЛОАН<br>
+										ЄДРПОУ 40484607<br>
+										Р/р №UA703007110000026508052600591 (26508052600591)<br>
+									</p>
+									<hr>
+									<a id="fraud"></a>
+									<h4 class="center">Fraud</h4>
+									<p id="fraud1ua" onclick="selectText('fraud1ua')" lang="uk">
+										Інформація по заявці, оформленої від Вашого імені, була передана в відповідальний підрозділ для проведення внутрішнього розслідування. І як нам повідомили, були виявлені ознаки шахрайських дій. У бюро кредитних історій буде передана інформація про видалення даних про кредитному договорі.
+									</p>
+									<p id="fraud1ru" onclick="selectText('fraud1ru')" lang="ru">
+										Информация по заявке, оформленной от Вашего имени, была передана в ответственное подразделение для проведения внутреннего расследования. И как нам сообщили, были выявлены признаки мошеннических действий. В бюро кредитных историй будет передана информация об удалении данных о кредитном договоре.
+									</p>
+									<hr>
+									<p id="fraud2ua" onclick="selectText('fraud2ua')" lang="uk">
+										Як нам повідомили в відповідальному підрозділі, при оформленні заявки виявлено шахрайство, договір не буде оброблятися і передаватися колекторам. Наша компанія не має претензій до Вас, для отримання офіційної інформації про відсутність претензій і додаткової інформації з даного питання, будь ласка, надішліть письмовий запит на нашу юридичну адресу.
+									</p>
+									<p id="fraud2ru" onclick="selectText('fraud2ru')" lang="ru">
+										Как нам сообщили в ответственном подразделении, при оформлении заявки выявлено мошенничество, договор не будет обрабатываться и передаваться коллекторам. Наша компания не имеет претензий к Вам, для получения официальной информации об отсутствии претензий и дополнительной информации по данному вопросу, пожалуйста, направьте письменный запрос на наш юридический адрес.
+									</p>
+								</div>
+							</div>
+						</section>
+					</article>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">							
+							<li><a href="https://miloan.davintoo.com/" class="fa-brands fa-leanpub" title="Учебный портал" target="_blank"></a></li>
+							<li><a href="https://www.facebook.com/miloanukraine/" class="fa-brands fa-facebook" title="Miloan | Facebook" target="_blank"></a></li>
+							<li><a href="https://miloan.ua/" class="fa-solid fa-watermelon-slice" title="Miloan" target="_blank"></a></li>
+							<li><a href="https://tengo.ua/" class="fa-solid fa-paw" title="Tengo" target="_blank"></a></li>
+							<li><a href="https://amigo.com.ua/" class="fa-solid fa-a" title="Amigo" target="_blank"></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li><li>Powered: <a href="https://t.me/Niaros" target="_blank">Niaros</a></li><li>Version: <a href="#">1.3.5</a></li>
+						</ul>
+					</footer>
+					<a href="#" id="slide"><i class="fa-solid fa-angle-up"></i></a>
+					<div class="sharing"> 
+						<div class="copy_buttons"> 
+							<div id="done_m" class="hide">
+								<i class="fa-solid fa-check"></i>
+								<span>Скопировано</span>
+							</div>
+							<span onclick="copyWithoutSign()" id="copy_b">Копировать</span>
+							<div id="copy_s">
+								<div class="select">
+									<span class="select__trigger">Копировать с подписью</span>
+									<div class="custom-options">
+										<ul>
+											<li class="custom-option" data-value="miloan"><i class="fa-solid fa-watermelon-slice"></i> Miloan</li>
+											<li class="custom-option" data-value="tengo"><i class="fa-solid fa-paw"></i> Tengo</li>
+											<li class="custom-option" data-value="amigo"><i class="fa-solid fa-a"></i> Amigo</li>
+										</ul>
+										<div class="aia2"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="aia"></div>
+					</div>
+			</div>
+				<!-- Scripts -->
+				<script defer type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+				<script defer type="text/javascript" src="assets/js/browser.min.js"></script>
+				<script defer type="text/javascript" src="assets/js/breakpoints.min.js"></script>
+				<script defer type="text/javascript" src="assets/js/util.js"></script>
+				<script defer type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+</html>
