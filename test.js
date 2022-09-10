@@ -1,9 +1,1 @@
-document.write('\
-\
-    <h1>Add your HTML code here</h1>\
-\
-     <p>Notice however, that you have to escape LF with a '\', just like\
-        demonstrated in this code listing.\
-    </p>\
-\
-');
+document.write('<b>Good test</b><h1>LOL</h1>');
