@@ -39,47 +39,6 @@ window.onload = function () {
       document.body.classList.remove('loaded_hiding');
     }, 500);
   }
-//Change thame and show icon thame
-function showInd() {
-    if (localStorage.getItem("theme") == 'auto'){
-        keker = 'fa-solid fa-circle-half-stroke';
-    } else if (localStorage.getItem("theme") == 'light'){
-        keker = 'fa-solid fa-brightness';
-    } else if (localStorage.getItem("theme") == 'dark'){
-        keker = 'fa-solid fa-moon';
-    }
-    document.querySelector("#icon-theme").setAttribute( 'class', keker );
-}
-function applyTheme(theme) {
-    document.body.classList.remove("theme-auto", "theme-light", "theme-dark");
-    document.body.classList.add(`theme-${theme}`);
-    localStorage.setItem("theme", theme);
-    showInd();
-    console.log('Применена тема', theme);
-}
-document.addEventListener("DOMContentLoaded", () => {
-   document.querySelector("#theme").addEventListener("change", function() {
-    applyTheme(this.value);
-   });
-});
-const savedTheme = localStorage.getItem("theme") || "auto";
-    for (const optionElement of document.querySelectorAll("#theme option")) {
-        optionElement.selected = savedTheme === optionElement.value;
-        showInd();
-    }
-//Выделение шаблона
-function selectText(containerid) {
-    if (document.selection) { // IE
-        var range = document.body.createTextRange();
-        range.moveToElementText(document.getElementById(containerid));
-        range.select();
-    } else if (window.getSelection) {
-        var range = document.createRange();
-        range.selectNode(document.getElementById(containerid));
-        window.getSelection().removeAllRanges();
-        window.getSelection().addRange(range);
-    }
-}
 //снятие выделения и скрытие кнопки при скролле
 $(window).scroll(function () {
 	var highlight = getHighlight(); 
