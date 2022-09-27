@@ -39,6 +39,19 @@ window.onload = function () {
       document.body.classList.remove('loaded_hiding');
     }, 500);
   }
+//Выделение шаблона
+function selectText(containerid) {
+    if (document.selection) { // IE
+        var range = document.body.createTextRange();
+        range.moveToElementText(document.getElementById(containerid));
+        range.select();
+    } else if (window.getSelection) {
+        var range = document.createRange();
+        range.selectNode(document.getElementById(containerid));
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+    }
+}
 //снятие выделения и скрытие кнопки при скролле
 $(window).scroll(function () {
 	var highlight = getHighlight(); 
