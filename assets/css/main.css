@@ -3221,13 +3221,14 @@ body.is-mobile #main>header {
 
 /* Footer */
 #footer {
-    padding: 5em 0 1em 0;
+    padding: 3em 0 1em 0;
     background: var(--background-color3);
     text-align: center;
 }
 
 #footer .icons {
     font-size: 1.25em;
+    padding: 2em;
 }
 
 #footer .icons a {
