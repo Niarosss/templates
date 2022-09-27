@@ -215,20 +215,11 @@ body {
     --dark-background-color3: #212121;
 }
 
-body.theme-dark {
+body.dark {
     --text-color: var(--dark-text-color);
     --background-color: var(--dark-background-color);
     --background-color2: var(--dark-background-color2);
     --background-color3: var(--dark-background-color3);
-}
-
-@media (prefers-color-scheme: dark) {
-    body.theme-auto {
-        --text-color: var(--dark-text-color);
-        --background-color: var(--dark-background-color);
-        --background-color2: var(--dark-background-color2);
-        --background-color3: var(--dark-background-color3);
-    }
 }
 
 /* Ñ‚ÐµÐ¼Ð½Ð°Ñ Ð¸ ÑÐ²ÐµÑ‚Ð»Ð°Ñ Ñ‚ÐµÐ¼Ñ‹ */
