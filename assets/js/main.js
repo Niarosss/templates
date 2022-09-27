@@ -53,54 +53,47 @@ function selectText(containerid) {
     }
 }
 //Смена темы
-				const toggleSwitch = document.querySelector('#theme-switch input[type="checkbox"]');
-					function detectColorScheme(){
-						var theme="light";    //default to light
-						
-						//local storage is used to override OS theme settings
-						if(localStorage.getItem("theme")){
-							if(localStorage.getItem("theme") == "dark"){
-								var theme = "dark";
-							}
-						} else if(!window.matchMedia) {
-							//matchMedia method not supported
-							return false;
-						} else if(window.matchMedia("(prefers-color-scheme: dark)").matches) {
-							//OS theme setting detected as dark
-							var theme = "dark";
-						}
-					
-						//dark theme preferred, set document with a `data-theme` attribute
-						if (theme=="dark") {
-							document.body.classList.add("dark");
-							toggleSwitch.checked = true;
-						}
-					}
-					detectColorScheme();
-					// This part in header ^
-					
-					//identify the toggle switch HTML element
-					
-					
-					//function that changes the theme, and sets a localStorage variable to track the theme between page loads
-					function switchTheme(e) {
-						if (e.target.checked) {
-							localStorage.setItem('theme', 'dark');
-							document.body.classList.add("dark");
-							toggleSwitch.checked = true;
-						} else {
-							localStorage.setItem('theme', 'light');
-							document.body.classList.remove("dark");
-							toggleSwitch.checked = false;
-						}    
-					}
-					
-					//listener for changing themes
-					toggleSwitch.addEventListener('change', switchTheme, false);
-					
-					//pre-check the dark-theme checkbox if dark-theme is set
-					if (document.documentElement.getAttribute("data-theme") == "dark"){
-						toggleSwitch.checked = true;
+const toggleSwitch = document.querySelector('#theme-switch input[type="checkbox"]');
+	function detectColorScheme(){
+		var theme="light";    //default to light
+		if(localStorage.getItem("theme")){
+			if(localStorage.getItem("theme") == "dark"){
+				var theme = "dark";
+			}
+		} else if(!window.matchMedia) {
+			//matchMedia method not supported
+			return false;
+		} else if(window.matchMedia("(prefers-color-scheme: dark)").matches) {
+			//OS theme setting detected as dark
+			var theme = "dark";
+		}
+		//dark theme preferred, set document with a `data-theme` attribute
+		if (theme=="dark") {
+			document.body.classList.add("dark");
+			toggleSwitch.checked = true;
+		}
+	}
+	detectColorScheme();
+	// This part in header ^
+	//identify the toggle switch HTML element
+	//function that changes the theme, and sets a localStorage variable to track the theme between page loads
+	function switchTheme(e) {
+		if (e.target.checked) {
+			localStorage.setItem('theme', 'dark');
+			document.body.classList.add("dark");
+			toggleSwitch.checked = true;
+		} else {
+			localStorage.setItem('theme', 'light');
+			document.body.classList.remove("dark");
+			toggleSwitch.checked = false;
+		}    
+	}
+	//listener for changing themes
+	toggleSwitch.addEventListener('change', switchTheme, false);
+	//pre-check the dark-theme checkbox if dark-theme is set
+	if (document.documentElement.getAttribute("data-theme") == "dark"){
+		toggleSwitch.checked = true;
+	}
 //снятие выделения и скрытие кнопки при скролле
 $(window).scroll(function () {
 	var highlight = getHighlight(); 
