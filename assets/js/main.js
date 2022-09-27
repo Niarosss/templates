@@ -53,7 +53,7 @@ function selectText(containerid) {
     }
 }
 //Смена темы
-const toggleSwitch = document.querySelector('#theme-switch input[type="checkbox"]');
+const toggleSwitch = document.querySelector('#theme-switch');
 					function detectColorScheme(){
 						var theme="light";    //default to light
 						
