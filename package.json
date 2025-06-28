@@ -1,0 +1,23 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "just garbage, not even worth attention",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niarosss/templates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niarosss/templates/issues"
+  },
+  "homepage": "https://github.com/Niarosss/templates#readme",
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
+}
